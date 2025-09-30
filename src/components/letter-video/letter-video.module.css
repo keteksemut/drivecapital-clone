@@ -18,8 +18,8 @@
     top: 0;
     left: 0;
     right: 0;
-    background-color: var(--black);
-    mix-blend-mode: multiply;
+    background-color: var(--theme-primary);
+    mix-blend-mode: lighten;
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
