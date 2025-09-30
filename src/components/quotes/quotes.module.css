@@ -1,0 +1,81 @@
+.quotes {
+    color: var(--theme-secondary)
+}
+
+@media(max-width:800px) {
+    .quotes {
+        display: flex;
+        flex-direction: column;
+        grid-gap: 0
+    }
+}
+
+.quotes__slider {
+    overflow: hidden;
+    position: relative;
+    grid-column: span 1/-1
+}
+
+@media(max-width:800px) {
+    .quotes__slider {
+        margin-bottom: 16vw
+    }
+}
+
+@media(min-width:800px) {
+    .quotes__slider {
+        grid-column: span 8/-1
+    }
+}
+
+.quotes__quote {
+    flex-shrink: 0;
+    width: 100%;
+    position: relative;
+    text-align: start
+}
+
+.quotes__quote:not(:last-child) {
+    margin-right: var(--layout-margin)
+}
+
+@media(min-width:800px) {
+    .quotes__quote:not(:last-child) {
+        margin-right: 4.0277777778vw
+    }
+}
+
+.quotes__quote p:first-letter {
+    margin-left: calc((1 * var(--layout-column-width)) + (1 - 1)*var(--layout-columns-gap) + var(--layout-columns-gap))
+}
+
+@media(min-width:800px) {
+    .quotes__quote p:first-letter {
+        margin-left: calc((2 * var(--layout-column-width)) + (2 - 1)*var(--layout-columns-gap) + var(--layout-columns-gap))
+    }
+}
+
+@media(max-width:800px) {
+    .quotes__nav {
+        order: 0;
+        align-self: flex-start
+    }
+}
+
+@media(min-width:800px) {
+    .quotes__nav {
+        grid-column: 1;
+        align-self: flex-start;
+        margin-left: .6944444444vw
+    }
+}
+
+.quotes__nav__top {
+    margin-bottom: 5.3333333333vw
+}
+
+@media(min-width:800px) {
+    .quotes__nav__top {
+        margin-bottom: 2.7777777778vw
+    }
+}

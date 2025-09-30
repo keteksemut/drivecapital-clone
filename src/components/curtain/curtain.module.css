@@ -1,0 +1,14 @@
+.curtain {
+    position: fixed;
+    inset: 0;
+    z-index: 10;
+    background-color: var(--theme-primary,var(--black));
+    transform: scaleY(0);
+    will-change: transform
+}
+
+@media(max-width: 800px) {
+    .curtain {
+        display:none
+    }
+}

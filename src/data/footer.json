@@ -1,0 +1,74 @@
+{
+    "internalTitleReference": "Drive Capital Footer",
+    "headline": "THE GREATEST EMERGING MARKET FOR VC IS AMERICA",
+    "lottieAsset": {
+        "url": "/footer-palceholder-map.png",
+        "description": "",
+        "width": 1656,
+        "height": 865
+    },
+    "leftLinksColumnCollection": {
+        "items": [
+            {
+                "text": "PORTFOLIO",
+                "url": "/portfolio"
+            },
+            {
+                "text": "STORY",
+                "url": "/our-story"
+            },
+            {
+                "text": "TEAM",
+                "url": "/team"
+            },
+            {
+                "text": "CAREERS",
+                "url": "/careers"
+            },
+            {
+                "text": "Talent",
+                "url": "/talent"
+            }
+        ]
+    },
+    "rightLinksColumnCollection": {
+        "items": [
+            {
+                "text": "MEDIA KIT",
+                "url": "/media-kit"
+            },
+            {
+                "text": "DIVERSITY REPORTS",
+                "url": "/diversity"
+            },
+            {
+                "text": "CONTACT",
+                "url": "mailto:info@drivecapital.com "
+            },
+            {
+                "text": "INVESTOR LOGIN",
+                "url": "https://drive-capital.lpx.fund/"
+            },
+            {
+                "text": "Seed Program",
+                "url": "/seed-program"
+            }
+        ]
+    },
+    "socialLinksCollection": {
+        "items": [
+            {
+                "url": "https://www.linkedin.com/company/drivecapital/",
+                "text": "linkedin"
+            },
+            {
+                "url": "https://twitter.com/drivecapital",
+                "text": "twitter"
+            },
+            {
+                "url": "https://www.youtube.com/c/DriveCapital",
+                "text": "youtube"
+            }
+        ]
+    }
+}

@@ -1,0 +1,207 @@
+.wrapper {
+    position: relative
+}
+
+@media(max-width:800px) {
+    .wrapper {
+        border-bottom: 1px solid
+    }
+}
+
+.wrapper .title {
+    position: relative;
+    margin-bottom: 2.6666666667vw
+}
+
+@media(min-width:800px) {
+    .wrapper .title {
+        grid-column: 5/-1;
+        margin-bottom: 2.7777777778vw
+    }
+}
+
+.wrapper .content {
+    padding: 6.4vw 0;
+    grid-column: 1/-1
+}
+
+@media(min-width:800px) {
+    .wrapper .content {
+        padding: 2.7777777778vw 0;
+        margin-bottom: 2.7777777778vw
+    }
+}
+
+@media(max-width:800px) {
+    .wrapper .content {
+        border-top: 1px solid;
+        border-bottom: 1px solid
+    }
+}
+
+.wrapper .content .item {
+    position: relative
+}
+
+.wrapper .content .item p {
+    grid-column: 5/-1;
+    width: calc((4 * var(--layout-column-width)) + (4 - 1)*var(--layout-columns-gap))
+}
+
+@media(min-width:800px) {
+    .wrapper .title {
+        transform: translateY(6.9444444444vw);
+        opacity: 0;
+        animation-name: fadeUp;
+        animation-timing-function: var(--ease-out-expo);
+        animation-duration: 1.6s;
+        animation-delay: .4s;
+        animation-play-state: paused;
+        animation-fill-mode: forwards
+    }
+}
+
+@media(min-width:800px)and (prefers-reduced-motion:reduce) {
+    .wrapper .title {
+        opacity: 1;
+        transform: none;
+        animation: none
+    }
+}
+
+@media(min-width:800px) {
+    .wrapper .content {
+        transform: translateY(6.9444444444vw);
+        opacity: 0;
+        animation-name: fadeUp;
+        animation-timing-function: var(--ease-out-expo);
+        animation-duration: 1.6s;
+        animation-delay: var(--delay);
+        animation-play-state: paused;
+        animation-fill-mode: forwards
+    }
+
+    @keyframes fadeUp {
+        0% {
+            transform: translateY(6.9444444444vw);
+            opacity: 0
+        }
+
+        to {
+            transform: none;
+            opacity: 1
+        }
+    }
+}
+
+@media(min-width:800px)and (prefers-reduced-motion:reduce) {
+    .wrapper .content {
+        opacity: 1;
+        transform: none;
+        animation: none
+    }
+}
+
+@media(min-width:800px) {
+
+    .wrapper .border.top:after,
+    .wrapper .border.top:before {
+        --delay: 200ms
+    }
+
+    .wrapper .border:after,
+    .wrapper .border:before {
+        transform-origin: left;
+        transform: scaleX(0);
+        animation-name: stretchX;
+        animation-timing-function: var(--ease-out-expo);
+        animation-duration: 1.6s;
+        animation-delay: var(--delay);
+        animation-play-state: paused;
+        animation-fill-mode: forwards
+    }
+
+    @keyframes stretchX {
+        0% {
+            transform: scaleX(0)
+        }
+
+        to {
+            transform: none
+        }
+    }
+}
+
+@media(min-width:800px)and (prefers-reduced-motion:reduce) {
+
+    .wrapper .border:after,
+    .wrapper .border:before {
+        transform: none;
+        animation: none
+    }
+}
+
+@media(min-width:800px) {
+
+    .wrapper.appear .border:after,
+    .wrapper.appear .border:before,
+    .wrapper.appear .content,
+    .wrapper.appear .title {
+        animation-play-state: running
+    }
+
+    .border {
+        position: absolute;
+        height: 1px;
+        left: 0;
+        right: 0
+    }
+
+    .border.top {
+        top: 0
+    }
+
+    .border.top:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 1px;
+        background-color: var(--theme-secondary);
+        width: calc((4 * var(--layout-column-width)) + (4 - 1)*var(--layout-columns-gap))
+    }
+
+    .border.top:after {
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-color: var(--theme-secondary);
+        height: 1px;
+        width: calc((8 * var(--layout-column-width)) + (8 - 1)*var(--layout-columns-gap))
+    }
+
+    .border.bottom {
+        bottom: 0
+    }
+
+    .border.bottom:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 1px;
+        background-color: var(--theme-secondary);
+        width: calc((4 * var(--layout-column-width)) + (4 - 1)*var(--layout-columns-gap))
+    }
+
+    .border.bottom:after {
+        content: "";
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        background-color: var(--theme-secondary);
+        height: 1px;
+        width: calc((8 * var(--layout-column-width)) + (8 - 1)*var(--layout-columns-gap))
+    }
+}

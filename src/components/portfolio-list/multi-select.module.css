@@ -1,0 +1,133 @@
+.wrapper {
+    position: relative;
+    border: 1px solid var(--cream);
+    width: 89.3333333333vw;
+    height: 10.6666666667vw;
+    cursor: pointer
+}
+
+@media(min-width: 800px) {
+    .wrapper {
+        width:23.0555555556vw;
+        height: 2.7777777778vw
+    }
+}
+
+.button {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 4vw 4.2666666667vw 3.2vw 3.4666666667vw
+}
+
+@media(min-width: 800px) {
+    .button {
+        padding:.9027777778vw
+    }
+}
+
+.dropdown {
+    width: 89.3333333333vw;
+    position: absolute;
+    top: 100%;
+    left: -.25%;
+    border: 1px solid var(--cream);
+    height: 0;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    padding: 3.4666666667vw;
+    background-color: var(--black);
+    pointer-events: none
+}
+
+@media(min-width: 800px) {
+    .dropdown {
+        width:23.0555555556vw;
+        padding: .9027777778vw
+    }
+}
+
+.dropdown.open {
+    pointer-events: all;
+    opacity: 1;
+    height: -moz-fit-content;
+    height: fit-content
+}
+
+.arrow {
+    transition: 1s transform var(--ease-out-expo);
+    width: 3.2vw;
+    height: 3.2vw
+}
+
+@media(min-width: 800px) {
+    .arrow {
+        width:.9722222222vw;
+        height: .9722222222vw
+    }
+}
+
+.arrow :not(.rotate) {
+    transform: rotate(0deg)
+}
+
+.arrow.rotate {
+    transform: rotate(180deg)
+}
+
+.item {
+    margin-bottom: 2.1333333333vw;
+    display: flex;
+    transition: .5s transform var(--ease-out-expo)
+}
+
+@media(min-width: 800px) {
+    .item {
+        margin-bottom:.5555555556vw
+    }
+}
+
+.item:hover {
+    transform: translate3d(5%,0,0) scale(1.1)
+}
+
+.item .box {
+    width: 4.2666666667vw;
+    height: 4.2666666667vw;
+    background-color: var(--cream);
+    position: relative;
+    margin-right: 2.1333333333vw
+}
+
+@media(min-width: 800px) {
+    .item .box {
+        width:1.1111111111vw;
+        height: 1.1111111111vw;
+        margin-right: .5555555556vw
+    }
+}
+
+.item .box:after {
+    content: "";
+    width: 2.1333333333vw;
+    height: 2.1333333333vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);
+    background-color: var(--black);
+    opacity: 0
+}
+
+@media(min-width: 800px) {
+    .item .box:after {
+        width:.5555555556vw;
+        height: .5555555556vw
+    }
+}
+
+.item .box.marked:after {
+    opacity: 1
+}

@@ -1,0 +1,75 @@
+.wrapper {
+    position: relative;
+    height: 100%
+}
+
+.wrapper .cities-lists {
+    grid-column: 5/-1
+}
+
+@media(max-width:800px) {
+    .wrapper .cities-lists {
+        grid-column: 1/-1
+    }
+}
+
+.wrapper .cities-lists .item {
+    transition: opacity 1.2s var(--ease-out-expo);
+    opacity: .3
+}
+
+.wrapper .cities-lists .item:not(:last-child) {
+    margin-bottom: 1.1111111111vw
+}
+
+@media(max-width:800px) {
+    .wrapper .cities-lists .item {
+        margin-bottom: 2.1333333333vw;
+        opacity: 1
+    }
+}
+
+.wrapper .cities-lists .item .city .number {
+    vertical-align: top;
+    margin-left: 4px
+}
+
+.wrapper .cities-lists .item.show {
+    opacity: 1
+}
+
+.wrapper .sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding-top: 6.25vw;
+    margin-top: -6.25vw;
+    left: 0;
+    top: 0;
+    grid-column: 1/5;
+    display: grid
+}
+
+.wrapper .sticky .image {
+    grid-area: 1/1;
+    width: 100%;
+    display: grid;
+    aspect-ratio: 448/424;
+    transition: opacity 1.2s var(--ease-out-expo);
+    opacity: 0
+}
+
+.wrapper .sticky .image.show {
+    opacity: 1
+}
+
+@media(max-width:800px) {
+    .wrapper .sticky {
+        display: none
+    }
+
+    .double-image_double-image__94bJF {
+        align-items: end
+    }
+}

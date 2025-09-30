@@ -1,0 +1,190 @@
+{
+    "ourStoryData": {
+        "heroTitle": "Our Story",
+        "introText": "We continue to learn as we build Drive, and we have no interest in keeping any of it a secret.",
+        "introTitle": "we started BY GOING THE “WRONG WAY”",
+        "introVideoLink": "https://www.youtube.com/watch?v=Xfbt6U5_AYM",
+        "introAnnotation": "OUR FOUNDING STORY",
+        "introDescription": "When we left Silicon Valley in 2012 to start a venture capital firm in Ohio, people literally told us we were crazy, but give us a few minutes. We can explain. Today, Drive is a Columbus-based venture capital firm that is investing in the world’s next generation of market-defining companies.",
+        "textRightImageLeftText": "“The market is just coming down and Nick called me, and I thought he was going to [pull the term sheet]. Instead, he said ‘If we said we’re in, we’re in.’ These people stand strong behind what they believe. We closed our deal on March 27, 2020.” — Martin Basiri, ApplyBoard Co-Founder",
+        "textRightImageLeftTitle": "TOUGH TIMES strengthen our resolve",
+        "textRightImageLeftVideoLink": "https://www.youtube.com/watch?v=-VRE0ns8vZY\u0026t=475s",
+        "textRightImageLeftAnnotation": "OUR CONVICTION",
+        "giantQuoteLeftText": "These people stand strong behind what they believe",
+        "textLeftImageRightAnnotation": "Our Insight",
+        "textLeftImageRightDescription": "\"If you were to look at our portfolio, we have companies in Denver, Washington, Atlanta, Toronto, Austin. I think what we’re finding is that this opportunity is a broader phenomenon that we’re investing in. The most compelling emerging market for venture capital is America.\" — Chris Olsen, Drive Capital Co-Founder",
+        "textLeftImageRightTitle": "Our original thesis holds today",
+        "giantQuoteRightText": "The Most Compelling Emerging Market for venture capital is america",
+        "secondTextLeftImageRightTitle": "We’re building our track record every day",
+        "secondTextLeftImageRightAnnotation": "Our Proof Points",
+        "secondTextLeftImageRightDescription": "\"They set out to show that big, successful companies could come from the heartland. Those efforts have now paid off, as Duolingo has floated a successful initial public offering and raised $521 million at a market cap of $3.66 billion.The debut is a windfall for several of the company's investors, including Drive Capital. Last year, Drive notched its first IPO when the auto-insurance startup Root, which incubated in Drive's office, went public at a $6.75 billion market cap.\"",
+        "fullWidthImageBlockText": "A master class in venture capital investing with Drive Capital’s Chris Olsen.",
+        "fullWidthImageBlockTitle": "We don’t keep secrets, here’s how we invest ",
+        "fullWidthImageBlockVideoLink": "https://www.youtube.com/watch?v=oULoamyhycA",
+        "fullWidthImageBlockAnnotation": "Our Approach",
+        "twoLineMarquee": [
+            "And our journey is just getting started",
+            "And our journey is just getting started"
+        ],
+        "introVideoPlaceholder": {
+            "__typename": "Asset",
+            "description": "",
+            "url": "/images/our-story/Drive_Story_01.jpg"
+        },
+        "textRightImageLeftVideoPlaceholder": {
+            "__typename": "Asset",
+            "description": "",
+            "url": "/images/our-story/Drive_Story_02.jpg"
+        },
+        "textLeftImageRightMedia": {
+            "__typename": "Asset",
+            "description": "",
+            "url": "/images/our-story/Drive_Story_04.jpg"
+        },
+        "giantQuoteRightMedia": {
+            "__typename": "Asset",
+            "description": "",
+            "url": "/images/our-story/Drive_Story_05.jpg"
+        },
+        "secondTextLeftImageRightMedia": {
+            "__typename": "Asset",
+            "description": "",
+            "url": "/images/our-story/DriveCapital-Lifestyle-2022-PROOFS-76_websize.png"
+        },
+        "fullWidthImageBlockVideoPlaceholder": {
+            "__typename": "Asset",
+            "description": "",
+            "url": "/images/our-story/Drive_Story_07.jpg"
+        },
+        "twoLineMarqueeMedia": {
+            "__typename": "Asset",
+            "description": "",
+            "url": "/images/our-story/Drive_Story_08.jpg"
+        },
+        "giantQuoteMedia": {
+            "items": [
+                {
+                    "__typename": "Asset",
+                    "description": "",
+                    "url": "/images/our-story/Drive_Story_03a.jpg"
+                },
+                {
+                    "__typename": "Asset",
+                    "description": "",
+                    "url": "/images/our-story/Drive_Story_03b.jpg"
+                }
+            ]
+        },
+        "textLeftImageRightCta": {
+            "__typename": "Link",
+            "text": "Read Article",
+            "url": "https://techcrunch.com/2021/01/11/columbus-drivecapital/"
+        },
+        "secondTextLeftImageRightCta": {
+            "__typename": "Link",
+            "text": "Read Article",
+            "url": "https://www.businessinsider.com/drive-capital-early-investor-duolingo-ipo-returns-2021-7"
+        },
+        "firstTextBlock": {
+            "description": {
+                "json": {
+                    "nodeType": "document",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "paragraph",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "“Drive Capital Ranks 10th on Global VC Diversity Index. Since 2015 we have published hard numbers around the gender and ethnic makeup of the venture capitalists wielding the most influence over startup fundraising.”",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "title": "Our team fuels our success",
+            "annotation": "Our People",
+            "cta": {
+                "__typename": "Link",
+                "text": "Read Article",
+                "url": "https://www.theinformation.com/vc-diversity-index"
+            }
+        },
+        "thirdTextBlock": {
+            "description": {
+                "json": {
+                    "nodeType": "document",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "paragraph",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "“Columbus-based Drive Capital raises additional $1 billion across two new funds to serve companies in the so-called ‘Driveway,’ a region spanning from the Hudson River to the Rocky Mountains and often overlooked by investors.”",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "title": "Today, we’re doubling down on our efforts",
+            "annotation": "Our future",
+            "cta": {
+                "__typename": "Link",
+                "text": "Read Article",
+                "url": "https://www.venturecapitaljournal.com/ohios-drive-capital-revs-up-1bn-for-two-funds/"
+            }
+        },
+        "metadata": {
+            "title": "Stories",
+            "description": "We continue to learn as we build Drive, and we have no interest in keeping any of it a secret.",
+            "keywords": null,
+            "bg": {
+                "__typename": "Asset",
+                "description": "",
+                "url": "/images/our-story/DRIVE-OG-Images-Our_Story.jpg"
+            },
+            "image": {
+                "url": "/images/our-story/DRIVE-OG-Images-Our_Story.jpg"
+            }
+        },
+        "prefooter": {
+            "items": [
+                {
+                    "link": {
+                        "__typename": "Link",
+                        "text": "Our Portfolio",
+                        "url": "/portfolio"
+                    },
+                    "media": {
+                        "__typename": "Asset",
+                        "description": "",
+                        "url": "/images/our-story/Drive_Story_09a.jpg"
+                    }
+                },
+                {
+                    "link": {
+                        "__typename": "Link",
+                        "text": "Our Team",
+                        "url": "/team"
+                    },
+                    "media": {
+                        "__typename": "Asset",
+                        "description": "",
+                        "url": "/images/our-story/Drive_Story_9b.jpg"
+                    }
+                }
+            ]
+        }
+    },
+    "key": "ourStory",
+    "theme": "dark"
+}

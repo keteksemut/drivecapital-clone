@@ -1,0 +1,192 @@
+.button {
+    color: var(--theme-secondary);
+    padding: 2.1333333333vw 2.6666666667vw;
+    border-radius: 10.6666666667vw;
+    position: relative;
+    overflow: hidden;
+    -webkit-mask-image: -webkit-radial-gradient(#fff,#000)
+}
+
+.button[disabled] {
+    filter: grayscale(1);
+    pointer-events: none
+}
+
+.button.fill {
+    background-color: var(--theme-secondary);
+    color: var(--theme-primary)
+}
+
+@media(min-width: 800px) {
+    .button {
+        border-radius:2.7777777778vw;
+        padding: .8333333333vw
+    }
+}
+
+.button .text {
+    position: relative;
+    display: flex;
+    align-items: center;
+    transition-duration: .8s;
+    transition-property: color;
+    transition-timing-function: var(--ease-out-expo)
+}
+
+.button.icon {
+    display: inline-flex;
+    align-items: center;
+    padding: 2.1333333333vw 2.6666666667vw
+}
+
+@media(min-width: 800px) {
+    .button.icon {
+        padding:.5555555556vw .8333333333vw
+    }
+}
+
+.button .svg-wrapper {
+    position: relative;
+    width: 4vw;
+    margin-left: 1.0666666667vw;
+    overflow: hidden;
+    z-index: 1
+}
+
+@media(max-width: 800px) {
+    .button .svg-wrapper {
+        padding-right:.2666666667vw
+    }
+
+    .button .svg-wrapper>* {
+        transform-origin: center;
+        transform: rotate(var(--arrow-rotate))
+    }
+}
+
+@media(min-width: 800px) {
+    .button .svg-wrapper {
+        padding:auto 0;
+        width: 1.6666666667vw;
+        height: 1.6666666667vw;
+        margin-left: .4166666667vw;
+        border-radius: 100%
+    }
+
+    .button .svg-wrapper:after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        border: 1px solid;
+        border-radius: inherit
+    }
+}
+
+.button .north {
+    --first-arrow-end-x: -50%;
+    --first-arrow-end-y: 100%;
+    --second-arrow-start-x: -50%;
+    --second-arrow-start-y: -150%;
+    --arrow-rotate: 135deg
+}
+
+.button .southeast {
+    --first-arrow-end-x: 0;
+    --first-arrow-end-y: -100%;
+    --second-arrow-start-x: -120%;
+    --second-arrow-start-y: 20%;
+    --arrow-rotate: 0
+}
+
+.button .enter,.button .leave {
+    position: absolute;
+    width: 1.8055555556vw;
+    height: 1.8055555556vw;
+    top: 50%;
+    left: 50%
+}
+
+.button .leave {
+    transform: translate3d(-50%,-50%,0) rotate(var(--arrow-rotate));
+    transition: .4s transform var(--ease-in-out-circ)
+}
+
+.button .enter {
+    fill: var(--theme-accent);
+    transition: .4s transform var(--ease-in-out-circ);
+    transform: translate3d(var(--second-arrow-start-x),var(--second-arrow-start-y),0) rotate(var(--arrow-rotate))
+}
+
+.button:after {
+    border: 1px solid var(--theme-secondary);
+    z-index: 1;
+    border-radius: inherit;
+    transition-property: border-color
+}
+
+.button:after,.button:before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    inset: 0;
+    transition-duration: .8s;
+    transition-timing-function: var(--ease-out-expo)
+}
+
+.button:before {
+    background-color: var(--theme-hover);
+    transform: translateY(100%);
+    transition-property: transform,border-radius;
+    z-index: 0
+}
+
+.button.hover {
+    color: var(--theme-accent)
+}
+
+.button.hover:before {
+    transform: translateY(0);
+    border-radius: inherit
+}
+
+.button.hover .enter {
+    transform: translate3d(-50%,-50%,0) rotate(var(--arrow-rotate));
+    transition-delay: 0
+}
+
+.button.hover .leave {
+    transform: translate3d(var(--first-arrow-end-x),var(--first-arrow-end-y),0) rotate(var(--arrow-rotate));
+    transition-delay: 50ms
+}
+
+.button.hover:after {
+    transition-delay: .2s;
+    border-color: var(--theme-hover)
+}
+
+@media(hover: hover) {
+    .button:hover {
+        color:var(--theme-accent)
+    }
+
+    .button:hover:before {
+        transform: translateY(0);
+        border-radius: inherit
+    }
+
+    .button:hover .enter {
+        transform: translate3d(-50%,-50%,0) rotate(var(--arrow-rotate));
+        transition-delay: 0
+    }
+
+    .button:hover .leave {
+        transform: translate3d(var(--first-arrow-end-x),var(--first-arrow-end-y),0) rotate(var(--arrow-rotate));
+        transition-delay: 50ms
+    }
+
+    .button:hover:after {
+        transition-delay: .2s;
+        border-color: var(--theme-hover)
+    }
+}

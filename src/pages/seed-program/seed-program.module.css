@@ -1,0 +1,224 @@
+.main {
+    position: relative
+}
+
+.main .hero {
+    padding-top: calc(var(--header-height) + 8.5333333333vw);
+    margin-bottom: 21.3333333333vw
+}
+
+@media(min-width:800px) {
+    .main .hero {
+        padding-top: calc(var(--header-height) + 2.7777777778vw);
+        margin-bottom: 8.8888888889vw
+    }
+
+    .main .hero h1 {
+        padding-top: .4166666667vw
+    }
+}
+
+.main .hero .marquee {
+    padding: 6.4vw 0
+}
+
+@media(max-width:800px) {
+    .main .hero .marquee {
+        border-bottom: 1px solid;
+        margin-bottom: 6.4vw
+    }
+}
+
+@media(min-width:800px) {
+    .main .hero .marquee {
+        padding: 2.7777777778vw 0
+    }
+}
+
+.main .hero .marquee div h2 {
+    padding-left: 16vw
+}
+
+@media(min-width:800px) {
+    .main .hero .marquee div h2 {
+        padding-left: 2.7777777778vw
+    }
+}
+
+.main .hero .cta {
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-left: auto
+}
+
+@media(max-width:800px) {
+    .main .hero .cta {
+        margin-left: 0
+    }
+
+    .main .hero .cta:first-child {
+        margin-bottom: 2.1333333333vw
+    }
+}
+
+@media(min-width:800px) {
+    .main .hero .description {
+        max-width: 26.5277777778vw
+    }
+
+    .main .hero .description :first-child {
+        margin-bottom: 1.1111111111vw
+    }
+}
+
+@media(max-width:800px) {
+    .main .hero .hero-media div {
+        margin-bottom: auto
+    }
+}
+
+.main .overview {
+    position: relative;
+    margin-bottom: 21.3333333333vw
+}
+
+@media(min-width:800px) {
+    .main .overview {
+        margin-bottom: 8.8888888889vw
+    }
+}
+
+.main .overview .heading {
+    margin-bottom: 21.3333333333vw
+}
+
+@media(min-width:800px) {
+    .main .overview .heading {
+        margin-bottom: 3.3333333333vw
+    }
+}
+
+@media(max-width:800px) {
+    .main .overview .heading>div {
+        border-bottom: none
+    }
+}
+
+.main .overview .image {
+    aspect-ratio: 327/264;
+    width: 100%
+}
+
+@media(min-width:800px) {
+    .main .overview .image {
+        aspect-ratio: 1440/680
+    }
+}
+
+.main .cities {
+    margin-bottom: 34.1333333333vw
+}
+
+@media(min-width:800px) {
+    .main .cities {
+        margin-bottom: 13.3333333333vw
+    }
+}
+
+.main .cities .heading {
+    margin-bottom: 21.3333333333vw
+}
+
+@media(min-width:800px) {
+    .main .cities .heading {
+        margin-bottom: 8.8888888889vw
+    }
+}
+
+.main .testimonials {
+    margin-bottom: 21.3333333333vw
+}
+
+@media(min-width:800px) {
+    .main .testimonials {
+        margin-bottom: 10.9722222222vw
+    }
+}
+
+@media(max-width:800px) {
+    .main .testimonials div {
+        grid-column: 1/-1
+    }
+}
+
+.main .team {
+    margin-bottom: 21.3333333333vw
+}
+
+@media(min-width:800px) {
+    .main .team {
+        margin-bottom: 13.3333333333vw
+    }
+}
+
+.main .prefooter {
+    margin-bottom: 21.3333333333vw
+}
+
+@media(min-width:800px) {
+    .main .prefooter {
+        margin-bottom: 8.8888888889vw
+    }
+}
+
+.main .prefooter .image {
+    aspect-ratio: 327/264;
+    width: 100%;
+    margin-bottom: 21.3333333333vw
+}
+
+@media(min-width:800px) {
+    .main .prefooter .image {
+        aspect-ratio: 1440/680;
+        margin-bottom: 8.8888888889vw
+    }
+
+    .first-fold {
+        transform: translateY(6.9444444444vw);
+        opacity: 0;
+        animation-name: seed-fund_fadeUp__8LnI3;
+        animation-timing-function: var(--ease-out-expo);
+        animation-duration: 1.6s;
+        animation-delay: .4s;
+        animation-play-state: paused;
+        animation-fill-mode: forwards
+    }
+}
+
+@media(min-width:800px) {
+    @keyframes seed-fund_fadeUp__8LnI3 {
+        0% {
+            transform: translateY(6.9444444444vw);
+            opacity: 0
+        }
+
+        to {
+            transform: none;
+            opacity: 1
+        }
+    }
+}
+
+@media(min-width:800px)and (prefers-reduced-motion:reduce) {
+    .first-fold {
+        opacity: 1;
+        transform: none;
+        animation: none
+    }
+}
+
+@media(min-width:800px) {
+    .first-fold.appear {
+        animation-play-state: running
+    }
+}

@@ -1,0 +1,227 @@
+{
+  "homeData": {
+    "heroHeadline": [
+      "THIS IS A CLONED SITE",
+      "FOR PERSONAL EDUCATION ONLY"
+    ],
+    "heroMarquee": [
+      "PLACEHOLDER",
+      "This is a cloned site for personal education only",
+      "PLACEHOLDER",
+      "All displayed text is dummy content",
+      "PLACEHOLDER",
+      "Do not use commercially",
+      "PLACEHOLDER",
+      "For testing and layout purposes",
+      "PLACEHOLDER",
+      "Non-original content",
+      "PLACEHOLDER",
+      "Educational placeholder",
+      "PLACEHOLDER",
+      "Practice demonstration",
+      "PLACEHOLDER",
+      "Sample filler only"
+    ],
+    "porfolioHeadline": "About This Clone",
+    "portfolioDescription": "This section contains placeholder content. Original site text has been replaced for personal practice and education.",
+    "teamHeadline": "Sample Team Section",
+    "teamDescription": "All wording here is dummy placeholder. It demonstrates structure only.",
+    "teamAnnotation": "PLACEHOLDER NOTE",
+    "teamFirstSubtext": "Cloned site placeholder text. Replace with your own educational notes.",
+    "teamSecondSubtext": "More filler content. No original wording is used here.",
+    "marqueeTopText": [
+      "XX sample companies",
+      "XX placeholder value",
+      "XX sample companies",
+      "XX placeholder value"
+    ],
+    "marqueeBottomText": [
+      "XX sample cities",
+      "XX sample partners",
+      "XX sample cities",
+      "XX sample partners"
+    ],
+    "storyAnnotation": "PLACEHOLDER STORY",
+    "storyHeadline": "Portfolio Placeholder",
+    "storyDescription": "This is a dummy portfolio description. It exists only to show layout on a cloned site template.",
+    "portfolioCta": {
+      "__typename": "Link",
+      "text": "View Placeholder Story",
+      "url": "/placeholder-story"
+    },
+    "teamCta": {
+      "__typename": "Link",
+      "text": "View Placeholder Team",
+      "url": "/placeholder-team"
+    },
+    "storyCta": {
+      "__typename": "Link",
+      "text": "View Placeholder Portfolio",
+      "url": "/placeholder-portfolio"
+    },
+    "cityListCta": {
+      "__typename": "Link",
+      "text": "& More Placeholder",
+      "url": "/placeholder"
+    },
+    "heroBackgroundVideo": {
+      "url": "/header_vid_-_1080_v3.m4v"
+    },
+    "portfolioMediaTop": {
+      "__typename": "Asset",
+      "description": "Placeholder top image",
+      "url": "/images/Drive_Home_02a.jpg"
+    },
+    "portfolioMediaBottom": {
+      "__typename": "Asset",
+      "description": "Placeholder bottom image",
+      "url": "/images/Drive_Home_02b.jpg"
+    },
+    "heroMedia": {
+      "items": [
+        {
+          "__typename": "Asset",
+          "description": "Placeholder hero image 1",
+          "url": "/images/Drive_Home_01a.jpg"
+        },
+        {
+          "__typename": "Asset",
+          "description": "Placeholder hero image 2",
+          "url": "/images/Drive_Home_01b.jpg"
+        },
+        {
+          "__typename": "Asset",
+          "description": "Placeholder hero image 3",
+          "url": "/images/Drive_Home_01c.jpg"
+        }
+      ]
+    },
+    "teamMedia": {
+      "items": [
+        {
+          "__typename": "Asset",
+          "description": "Placeholder team image 1",
+          "url": "/images/Drive_Home_03a.jpg"
+        },
+        {
+          "__typename": "Asset",
+          "description": "Placeholder team image 2",
+          "url": "/images/Drive_Home_03b.jpg"
+        }
+      ]
+    },
+    "marqueeMedia": {
+      "items": [
+        {
+          "__typename": "Asset",
+          "description": "Placeholder marquee image 1",
+          "url": "/images/Drive_Home_04b.jpg"
+        },
+        {
+          "__typename": "Asset",
+          "description": "Placeholder marquee image 2",
+          "url": "/images/Drive_Home_04a.jpg"
+        }
+      ]
+    },
+    "storyMedia": {
+      "items": [
+        {
+          "__typename": "Asset",
+          "description": "Placeholder story image 1",
+          "url": "/images/Drive_Home_05a.jpg"
+        },
+        {
+          "__typename": "Asset",
+          "description": "Placeholder story image 2",
+          "url": "/images/Drive_Home_05b.jpg"
+        }
+      ]
+    },
+    "metadata": {
+      "title": "Home - Placeholder",
+      "description": "This is a cloned site using only placeholder content for personal education and practice.",
+      "keywords": null,
+      "bg": {
+        "__typename": "Asset",
+        "description": "Placeholder background image",
+        "url": "/images/DRIVE-OG-Images-Home.jpg"
+      },
+      "image": {
+        "url": "/images/og.jpg"
+      }
+    },
+    "cities": {
+      "items": [
+        {
+          "city": "Placeholder City 1",
+          "airportCode": "PC1",
+          "linkedFrom": {
+            "companies": {
+              "items": [
+                {
+                  "linkedTitle": "Sample Company A"
+                },
+                {
+                  "linkedTitle": "Sample Company B"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "city": "Placeholder City 2",
+          "airportCode": "PC2",
+          "linkedFrom": {
+            "companies": {
+              "items": [
+                {
+                  "linkedTitle": "Sample Company C"
+                },
+                {
+                  "linkedTitle": "Sample Company D"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  "companiesByCity": [
+    {
+      "city": "Placeholder City 1",
+      "airportCode": "PC1",
+      "linkedFrom": {
+        "companies": {
+          "items": [
+            {
+              "linkedTitle": "Sample Company A"
+            },
+            {
+              "linkedTitle": "Sample Company B"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "city": "Placeholder City 2",
+      "airportCode": "PC2",
+      "linkedFrom": {
+        "companies": {
+          "items": [
+            {
+              "linkedTitle": "Sample Company C"
+            },
+            {
+              "linkedTitle": "Sample Company D"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "key": "home",
+  "theme": "dark"
+}

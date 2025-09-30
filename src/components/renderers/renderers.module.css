@@ -1,0 +1,24 @@
+.annotation {
+    vertical-align: top;
+    margin-left: 1.0666666667vw
+}
+
+@media(min-width:800px) {
+    .annotation {
+        margin-left: .2777777778vw
+    }
+}
+
+.paragraph:not(:last-child) {
+    margin-bottom: 5.3333333333vw
+}
+
+@media(min-width:800px) {
+    .paragraph:not(:last-child) {
+        margin-bottom: 2.0833333333vw
+    }
+}
+
+.link {
+    color: var(--theme-hover)
+}

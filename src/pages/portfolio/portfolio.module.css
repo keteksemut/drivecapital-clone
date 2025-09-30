@@ -1,0 +1,72 @@
+.main {
+    position: relative
+}
+
+.main .hero {
+    padding-top: calc(var(--header-height) + 8.5333333333vw);
+    margin-bottom: 10.6666666667vw
+}
+
+@media(min-width: 800px) {
+    .main .hero {
+        padding-top:calc(var(--header-height) + 2.7777777778vw);
+        margin-bottom: 2.7777777778vw
+    }
+}
+
+.main .hero .count {
+    vertical-align: top;
+    margin-left: .2777777778vw
+}
+
+@media(max-width: 800px) {
+    .main .hero .count {
+        margin-left:1.0666666667vw
+    }
+}
+
+.main .list {
+    margin-bottom: 21.3333333333vw
+}
+
+@media(min-width: 800px) {
+    .main .list {
+        margin-bottom:8.8888888889vw;
+        transform: translateY(6.9444444444vw);
+        opacity: 0;
+        animation-name: portfolio_fadeUp__jR0yh;
+        animation-timing-function: var(--ease-out-expo);
+        animation-duration: 1.6s;
+        animation-delay: .4s;
+        animation-play-state: paused;
+        animation-fill-mode: forwards
+    }
+}
+
+@media(min-width: 800px) {
+    @keyframes portfolio_fadeUp__jR0yh {
+        0% {
+            transform:translateY(6.9444444444vw);
+            opacity: 0
+        }
+
+        to {
+            transform: none;
+            opacity: 1
+        }
+    }
+}
+
+@media(min-width: 800px)and (prefers-reduced-motion:reduce) {
+    .main .list {
+        opacity:1;
+        transform: none;
+        animation: none
+    }
+}
+
+@media(min-width: 800px) {
+    .main.appear .list {
+        animation-play-state:running
+    }
+}

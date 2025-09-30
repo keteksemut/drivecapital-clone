@@ -1,0 +1,173 @@
+.gallery {
+    height: 100vh;
+    width: 100%;
+    background-color: var(--theme-primary);
+    text-align: center;
+    position: fixed;
+    inset: 0;
+    overscroll-behavior-y: contain;
+    z-index: 3
+}
+
+@media(max-width: 800px) {
+    .gallery:after,.gallery:before {
+        content:"";
+        position: absolute;
+        inset: 0;
+        z-index: 2;
+        height: 35%;
+        width: 100%;
+        background: linear-gradient(to bottom,var(--theme-primary),var(--theme-primary-transparent));
+        pointer-events: none
+    }
+
+    .gallery:after {
+        inset: unset;
+        height: 30%;
+        bottom: 0;
+        left: 0;
+        background: linear-gradient(to top,var(--theme-primary),var(--theme-primary-transparent))
+    }
+}
+
+.gallery .image {
+    position: absolute;
+    inset: 0;
+    opacity: .8
+}
+
+.gallery .image>* {
+    position: absolute;
+    inset: 0;
+    will-change: unset;
+    transition-property: opacity,transform;
+    transition-duration: 1.2s;
+    transition-timing-function: var(--ease-out-expo)
+}
+
+.gallery .image>:not(.current) {
+    opacity: 0;
+    transform: scale(1.2)
+}
+
+.gallery .image>* .current {
+    z-index: 2
+}
+
+.gallery .image>* .current:not(.show) {
+    opacity: 0
+}
+
+.gallery .image img {
+    object-fit: cover
+}
+
+.gallery .inner {
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    scrollbar-width: none!important;
+    -ms-overflow-style: none
+}
+
+.gallery .inner::-webkit-scrollbar {
+    width: 0!important;
+    height: 0!important
+}
+
+.gallery .button {
+    position: absolute;
+    top: calc(var(--header-height) + 5.5555555556vw);
+    right: var(--layout-margin);
+    z-index: 2
+}
+
+@media(max-width: 800px) {
+    .gallery .button {
+        left:var(--layout-margin);
+        right: unset;
+        top: calc(var(--header-height) + 4.2666666667vw)
+    }
+}
+
+.gallery .list .extra {
+    height: 100vh
+}
+
+.gallery .list .item {
+    position: relative;
+    overflow: hidden
+}
+
+.gallery .list .item .link {
+    display: block;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: auto
+}
+
+.gallery .list .item .link:not(.current)+.overlay {
+    transform: translateY(calc(100% + 1px))
+}
+
+.gallery .list .item .link:not(.current)+.overlay .marquee {
+    transform: translateY(100%)
+}
+
+.gallery .list .item:not(.visible) .overlay {
+    transition-delay: .1s
+}
+
+@media(max-width: 800px) {
+    .gallery .list .item:not(.visible) .overlay {
+        display:none
+    }
+}
+
+.gallery .list .item .overlay .marquee,.gallery .list .item .title {
+    padding-top: 2.1333333333vw
+}
+
+@media(min-width: 800px) {
+    .gallery .list .item .overlay .marquee,.gallery .list .item .title {
+        padding-top:1.1111111111vw
+    }
+}
+
+.gallery .list .item .title {
+    display: block
+}
+
+.gallery .list .item .overlay {
+    position: absolute;
+    inset: 0;
+    background-color: var(--theme-hover);
+    transition: transform 1.2s var(--ease-out-expo);
+    pointer-events: none
+}
+
+.gallery .list .item .overlay .marquee {
+    transition: transform 1.2s var(--ease-out-expo)
+}
+
+.gallery .list .item .overlay .marquee>* {
+    padding: 0 2.7777777778vw
+}
+
+.gallery:not(.visible) {
+    opacity: 0;
+    pointer-events: none
+}
+
+.gallery:not(.visible) .item .title {
+    transform: translateY(100%)
+}
+
+.gallery.visible .item .title {
+    transition: 1.2s transform var(--ease-out-expo);
+    transition-delay: calc(.1s*var(--i))!important
+}
+
+html .gallery {
+    transition: 1.2s opacity var(--ease-out-expo)
+}

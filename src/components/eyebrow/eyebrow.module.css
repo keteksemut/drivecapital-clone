@@ -1,0 +1,30 @@
+.eyebrow {
+    float: left;
+    display: flex;
+    align-items: center;
+    align-self: start
+}
+
+@media(max-width: 800px) {
+    .eyebrow {
+        margin-bottom:7.0666666667vw
+    }
+}
+
+@media(min-width: 800px) {
+    .eyebrow {
+        width:32.0833333333vw
+    }
+}
+
+.eyebrow svg {
+    width: 4.2666666667vw;
+    margin-right: 2.1333333333vw
+}
+
+@media(min-width: 800px) {
+    .eyebrow svg {
+        width:1.1111111111vw;
+        margin-right: .5555555556vw
+    }
+}

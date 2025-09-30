@@ -1,0 +1,5 @@
+.image {
+    filter: var(--grayscale-filter);
+    object-fit: fill;
+    will-change: transform
+}

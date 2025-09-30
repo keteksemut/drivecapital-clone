@@ -1,0 +1,17 @@
+.sentence {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.sentence .word {
+    margin-right: 1.7361111111vw;
+    transition: .8s opacity var(--ease-out-expo)
+}
+
+.sentence .word:not(.visible) {
+    opacity: var(--opacity)
+}
+
+.sentence .visible {
+    opacity: 1
+}

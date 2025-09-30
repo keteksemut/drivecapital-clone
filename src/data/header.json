@@ -1,0 +1,44 @@
+{
+    "internalTitleReference": "Drive Capital Header",
+    "navigationLinks": {
+        "items": [
+            {
+                "text": "portfolio",
+                "url": "/portfolio"
+            },
+            {
+                "text": "story",
+                "url": "/our-story"
+            },
+            {
+                "text": "team",
+                "url": "/team"
+            },
+            {
+                "text": "careers",
+                "url": "/careers"
+            },
+            {
+                "text": "Talent",
+                "url": "/talent"
+            },
+            {
+                "text": "Seed Program",
+                "url": "/seed-program"
+            }
+        ]
+    },
+    "socialMedia": {
+        "items": [
+            {
+                "url": "https://www.linkedin.com/company/drivecapital/"
+            },
+            {
+                "url": "https://twitter.com/drivecapital"
+            },
+            {
+                "url": "https://www.youtube.com/c/DriveCapital"
+            }
+        ]
+    }
+}

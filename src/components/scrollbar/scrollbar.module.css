@@ -1,0 +1,34 @@
+.scrollbar {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 7;
+    padding: 1.6666666667vw 0
+}
+
+@media(hover: none) {
+    .scrollbar {
+        display:none
+    }
+}
+
+.scrollbar .inner {
+    height: 100%;
+    position: relative
+}
+
+.scrollbar .thumb {
+    min-height: 3.3333333333vw;
+    width: .5555555556vw;
+    background-color: var(--theme-hover);
+    position: absolute;
+    right: .5555555556vw;
+    border-radius: .2777777778vw;
+    cursor: -webkit-grab;
+    cursor: grab
+}
+
+html.gallery .scrollbar {
+    opacity: 0
+}

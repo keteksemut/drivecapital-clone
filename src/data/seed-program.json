@@ -1,0 +1,472 @@
+{
+    "seedFundData": {
+        "heroDescription": {
+            "json": {
+                "data": {},
+                "content": [
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "The Drive Capital Seed Program invests in founders at the pre-seed and seed stage.",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    },
+                    {
+                        "data": {},
+                        "content": [
+                            {
+                                "data": {},
+                                "marks": [],
+                                "value": "$80M allocated   •   $500k safe",
+                                "nodeType": "text"
+                            }
+                        ],
+                        "nodeType": "paragraph"
+                    }
+                ],
+                "nodeType": "document"
+            }
+        },
+        "heroTitle": "Seed Program",
+        "heroMarquee": [
+            "Forge",
+            "Olive",
+            "Beam",
+            "Tandem",
+            "Forge ",
+            "Beam",
+            "Olive",
+            "Tandem"
+        ],
+        "overviewHeadline": "OVERVIEW",
+        "overviewDescription": "We’re looking for founders who are solving hard problems in large markets.  With $2.2B in AUM, Drive is built to support founders from seed to IPO. Our favorite time to partner with founders is when the vision is still being shaped.",
+        "citiesHeadline": "Cities",
+        "citiesDescription": "Our Seed Fund General Managers are on-location in five growing markets. Working on an idea outside of these five markets? We’d still love to hear about it.",
+        "quotesTitle": "DRIVE KNOWS SEED INVESTING ",
+        "heroCta": {
+            "__typename": "Link",
+            "text": "Meet The Team",
+            "url": "#team"
+        },
+        "citiesCta": {
+            "__typename": "Link",
+            "text": "Get in Touch",
+            "url": "mailto:info@drivecapital.com"
+        },
+        "quotesItems": {
+            "items": [
+                {
+                    "text": "\"Drive demonstrated adaptability and doubled down on their support through lean times pre-product market fit to help guide our company through this expansion to the other side, providing capital, talent acquisition resources, and strategy support along the way. Drive has been an incredible partner to us since 2014.\" - Alex Frommeyer, Co-Founder and CEO, Beam Benefits"
+                },
+                {
+                    "text": "\"We couldn't ask for a better seed investor and long-term partner than Drive Captial. Drive knew our opportunity inside and out and took significant measures to ensure our long-term success.\" - Tim Miller, Co-Founder and CEO, Forge Biologics"
+                },
+                {
+                    "text": "\"Drive was immediately ready to jump in and help. From finding a legal team to obtaining insurance to learning how to hire our first employee, their team's diverse knowledge, experience, and network acted as a team of mentors as we built out our MVP.\" - Olive Weinstock, Co-Founder and CEO, Tandem"
+                }
+            ]
+        },
+        "overviewMedia": {
+            "__typename": "Asset",
+            "description": "",
+            "url": "/images/seed-program/DriveCapital-TalentTeam-Summer2024-31_websize.jpg"
+        },
+        "prefooterMedia": {
+            "__typename": "Asset",
+            "description": "",
+            "url": "/images/seed-program/DriveCapital-TalentTeam-Summer2024-31_websize.jpg"
+        },
+        "heroMedia": {
+            "items": [
+                {
+                    "__typename": "Asset",
+                    "description": "Drive Seed Program",
+                    "url": "/images/seed-program/DriveCapital-Lifestyle-2022-PROOFS-2_websize.jpg"
+                },
+                {
+                    "__typename": "Asset",
+                    "description": "",
+                    "url": "/images/seed-program/josh-hild-PaahVcW9WAs-unsplash_1.jpg"
+                }
+            ]
+        },
+        "metadata": {
+            "title": "Seed Program",
+            "description": "Seed Program",
+            "keywords": null,
+            "bg": {
+                "__typename": "Asset",
+                "description": "",
+                "url": "/images/seed-program/DRIVE-OG-Images-Portfolio.jpg"
+            },
+            "image": {
+                "url": "/images/seed-program/DRIVE-OG-Images-Portfolio.jpg"
+            }
+        },
+        "cities": {
+            "items": [
+                {
+                    "city": "Austin",
+                    "airportCode": "AUS",
+                    "cityMedia": {
+                        "__typename": "Asset",
+                        "description": "",
+                        "url": "/images/seed-program/Drive_Cities_Austin.jpg"
+                    }
+                },
+                {
+                    "city": "Atlanta",
+                    "airportCode": "ATL",
+                    "cityMedia": {
+                        "__typename": "Asset",
+                        "description": "",
+                        "url": "/images/seed-program/Drive_Cities_Atlanta.jpg"
+                    }
+                },
+                {
+                    "city": "Boulder",
+                    "airportCode": "DEN",
+                    "cityMedia": {
+                        "__typename": "Asset",
+                        "description": "boulder",
+                        "url": "/images/seed-program/caption-0.jpg"
+                    }
+                },
+                {
+                    "city": "Chicago",
+                    "airportCode": "ORD",
+                    "cityMedia": {
+                        "__typename": "Asset",
+                        "description": "",
+                        "url": "/images/seed-program/Drive_Cities_Chicago.jpg"
+                    }
+                },
+                {
+                    "city": "Columbus",
+                    "airportCode": "CMH",
+                    "cityMedia": {
+                        "__typename": "Asset",
+                        "description": "",
+                        "url": "/images/seed-program/Drive_Cities_Columbus.jpg"
+                    }
+                },
+                {
+                    "city": "Toronto",
+                    "airportCode": "YYZ",
+                    "cityMedia": {
+                        "__typename": "Asset",
+                        "description": "",
+                        "url": "/images/seed-program/Drive_Cities_Toronto.jpg"
+                    }
+                }
+            ]
+        },
+        "generalManagers": {
+            "items": [
+                {
+                    "slug": "alanna-souza",
+                    "linkedTitle": "Alanna Souza",
+                    "hero": {
+                        "filtersCollection": {
+                            "items": [
+                                {
+                                    "filterValue": "Toronto Seed GM"
+                                }
+                            ]
+                        },
+                        "ctas": {
+                            "items": [
+                                {
+                                    "__typename": "Link",
+                                    "text": "Email",
+                                    "url": "mailto:alanna@drivecapital.com"
+                                },
+                                {
+                                    "__typename": "Link",
+                                    "text": "LinkedIn",
+                                    "url": "https://www.linkedin.com/in/alannalopessouza/"
+                                }
+                            ]
+                        },
+                        "mediaAnnotation": {
+                            "media": {
+                                "url": "/images/seed-program/DriveCapital-Headshots-Jan2023-1_websize.jpg",
+                                "description": "Alanna Souza"
+                            }
+                        }
+                    }
+                },
+                {
+                    "slug": "anish-zute",
+                    "linkedTitle": "Anish Zuté",
+                    "hero": {
+                        "filtersCollection": {
+                            "items": [
+                                {
+                                    "filterValue": "Austin Seed GM"
+                                }
+                            ]
+                        },
+                        "ctas": {
+                            "items": [
+                                {
+                                    "__typename": "Link",
+                                    "text": "email",
+                                    "url": "mailto:anish@drivecapital.com"
+                                },
+                                {
+                                    "__typename": "Link",
+                                    "text": "linkedin",
+                                    "url": "https://www.linkedin.com/in/anishzute/"
+                                }
+                            ]
+                        },
+                        "mediaAnnotation": {
+                            "media": {
+                                "url": "/images/seed-program/DriveCapital-Headshot-May2024-4_websize-2.jpg",
+                                "description": "Anish Zuté"
+                            }
+                        }
+                    }
+                },
+                {
+                    "slug": "Avoilan-Bingham",
+                    "linkedTitle": "Avoilan Bingham",
+                    "hero": {
+                        "filtersCollection": {
+                            "items": [
+                                {
+                                    "filterValue": "Atlanta Seed GM"
+                                }
+                            ]
+                        },
+                        "ctas": {
+                            "items": [
+                                {
+                                    "__typename": "Link",
+                                    "text": "LinkedIn",
+                                    "url": "https://www.linkedin.com/in/avoilanbingham/"
+                                },
+                                {
+                                    "__typename": "Link",
+                                    "text": "Twitter",
+                                    "url": "https://twitter.com/AVisRich"
+                                },
+                                {
+                                    "__typename": "Link",
+                                    "text": "Email",
+                                    "url": "mailto:avoilan@drivecapital.com"
+                                }
+                            ]
+                        },
+                        "mediaAnnotation": {
+                            "media": {
+                                "url": "/images/seed-program/DriveCapital-Headshots-Dec2022-2.jpg",
+                                "description": ""
+                            }
+                        }
+                    }
+                },
+                {
+                    "slug": "landon-campbell",
+                    "linkedTitle": "Landon Campbell",
+                    "hero": {
+                        "filtersCollection": {
+                            "items": [
+                                {
+                                    "filterValue": "Chicago Seed GM"
+                                }
+                            ]
+                        },
+                        "ctas": {
+                            "items": [
+                                {
+                                    "__typename": "Link",
+                                    "text": "Email",
+                                    "url": "mailto:landon@drivecapital.com"
+                                },
+                                {
+                                    "__typename": "Link",
+                                    "text": "Twitter",
+                                    "url": "https://twitter.com/landon20s"
+                                },
+                                {
+                                    "__typename": "Link",
+                                    "text": "LinkedIn",
+                                    "url": "https://www.linkedin.com/in/landon-w-campbell/"
+                                }
+                            ]
+                        },
+                        "mediaAnnotation": {
+                            "media": {
+                                "url": "/images/seed-program/DriveCapital-Fall2022-11-2.jpg",
+                                "description": "Landon Campbell"
+                            }
+                        }
+                    }
+                },
+                {
+                    "slug": "nick-solaro",
+                    "linkedTitle": "Nick Solaro",
+                    "hero": {
+                        "filtersCollection": {
+                            "items": [
+                                {
+                                    "filterValue": "Partner"
+                                }
+                            ]
+                        },
+                        "ctas": {
+                            "items": [
+                                {
+                                    "__typename": "Link",
+                                    "text": "Linkedin",
+                                    "url": "https://www.linkedin.com/in/solaro"
+                                },
+                                {
+                                    "__typename": "Link",
+                                    "text": "Twitter",
+                                    "url": "https://twitter.com/nsolaro"
+                                },
+                                {
+                                    "__typename": "Link",
+                                    "text": "Email",
+                                    "url": "mailto:nick@drivecapital.com"
+                                }
+                            ]
+                        },
+                        "mediaAnnotation": {
+                            "media": {
+                                "url": "https://images.ctfassets.net/mq81gy7w2znw/5Lf6KBPOsdEQvGDJ0DvU3k/739e8b364e51ddbf2d6fc28ad7b08f71/Nick_Solaro",
+                                "description": "description"
+                            }
+                        }
+                    }
+                },
+                {
+                    "slug": "tim-morrissey",
+                    "linkedTitle": "Tim Morrissey, PhD",
+                    "hero": {
+                        "filtersCollection": {
+                            "items": [
+                                {
+                                    "filterValue": "Boulder Seed GM"
+                                }
+                            ]
+                        },
+                        "ctas": {
+                            "items": [
+                                {
+                                    "__typename": "Link",
+                                    "text": "Email",
+                                    "url": "mailto:tim@drivecapital.com"
+                                }
+                            ]
+                        },
+                        "mediaAnnotation": {
+                            "media": {
+                                "url": "/images/seed-program/DriveCapital-Headshots-Spring2024-1_websize.jpg",
+                                "description": "Tim Morrissey"
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "managers": {
+        "items": [
+            {
+                "title": "Alanna Souza",
+                "link": "/team/alanna-souza",
+                "image": {
+                    "url": "/images/seed-program/DriveCapital-Headshots-Jan2023-1_websize.jpg",
+                    "description": "Alanna Souza"
+                },
+                "position": "Toronto Seed GM",
+                "email": {
+                    "__typename": "Link",
+                    "text": "Email",
+                    "url": "mailto:alanna@drivecapital.com"
+                }
+            },
+            {
+                "title": "Anish Zuté",
+                "link": "/team/anish-zute",
+                "image": {
+                    "url": "/images/seed-program/DriveCapital-Headshot-May2024-4_websize-2.jpg",
+                    "description": "Anish Zuté"
+                },
+                "position": "Austin Seed GM",
+                "email": {
+                    "__typename": "Link",
+                    "text": "email",
+                    "url": "mailto:anish@drivecapital.com"
+                }
+            },
+            {
+                "title": "Avoilan Bingham",
+                "link": "/team/Avoilan-Bingham",
+                "image": {
+                    "url": "/images/seed-program/DriveCapital-Headshots-Dec2022-2.jpg",
+                    "description": ""
+                },
+                "position": "Atlanta Seed GM",
+                "email": {
+                    "__typename": "Link",
+                    "text": "Email",
+                    "url": "mailto:avoilan@drivecapital.com"
+                }
+            },
+            {
+                "title": "Landon Campbell",
+                "link": "/team/landon-campbell",
+                "image": {
+                    "url": "/images/seed-program/DriveCapital-Fall2022-11-2.jpg",
+                    "description": "Landon Campbell"
+                },
+                "position": "Chicago Seed GM",
+                "email": {
+                    "__typename": "Link",
+                    "text": "Email",
+                    "url": "mailto:landon@drivecapital.com"
+                }
+            },
+            {
+                "title": "Nick Solaro",
+                "link": "/team/nick-solaro",
+                "image": {
+                    "url": "/images/seed-program/Nick_Solaro.jpg",
+                    "description": "description"
+                },
+                "position": "Partner",
+                "email": {
+                    "__typename": "Link",
+                    "text": "Email",
+                    "url": "mailto:nick@drivecapital.com"
+                }
+            },
+            {
+                "title": "Tim Morrissey, PhD",
+                "link": "/team/tim-morrissey",
+                "image": {
+                    "url": "/images/seed-program/DriveCapital-Headshots-Spring2024-1_websize.jpg",
+                    "description": "Tim Morrissey"
+                },
+                "position": "Boulder Seed GM",
+                "email": {
+                    "__typename": "Link",
+                    "text": "Email",
+                    "url": "mailto:tim@drivecapital.com"
+                }
+            }
+        ]
+    },
+    "key": "seed-fund",
+    "theme": "dark"
+}

@@ -1,0 +1,11 @@
+.parallax-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: var(--layout-columns-gap)
+}
+
+@media(min-width: 800px) {
+    .parallax-grid {
+        grid-template-columns:repeat(var(--how-many-columns),minmax(0,1fr))
+    }
+}

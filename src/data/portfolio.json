@@ -1,0 +1,2117 @@
+{
+    "portfolioData": {
+      "metadata": {
+        "title": "Portfolio",
+        "description": "We operate at the highest level and hold each other to it. Our companies hold themselves to the highest levels too.",
+        "keywords": null,
+        "bg": {
+          "__typename": "Asset",
+          "description": "",
+          "url": "/images/portfolio/images/portfolio/DRIVE-OG-Images-Portfolio.jpg"
+        },
+        "image": {
+          "url": "/images/portfolio/DRIVE-OG-Images-Portfolio.jpg"
+        }
+      },
+      "hero": {
+        "headline": "Portfolio",
+        "description": "We look for market-defining companies in categories we understand deeply. We’re stage agnostic, preferring strongly to journey with our portfolio companies from start to finish.",
+        "annotation": 84,
+        "ctas": {
+          "items": [
+            {
+              "__typename": "Link",
+              "text": "Gallery View",
+              "url": null
+            }
+          ]
+        }
+      }
+    },
+    "portfolioList": [
+      {
+        "title": "Voxel51",
+        "slug": "voxel51",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "A.I."
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Ann_Arbor.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Vironexis",
+        "slug": "vironexis",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "Healthcare"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Columbus.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "VAST Data",
+        "slug": "vast-data",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "A.I."
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "NYC Skyline",
+              "url": "/images/portfolio/New_York_City_-2015__CC__BY_Anthony__Quintano.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Telnyx",
+        "slug": "telnyx",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "A.I."
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Austin.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Sparx",
+        "slug": "sparx",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "A.I."
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "NYC Skyline",
+              "url": "/images/portfolio/New_York_City_-2015__CC__BY_Anthony__Quintano.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Hopper",
+        "slug": "hopper",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "FinTech"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Montreal.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Birdseye",
+        "slug": "birdseye",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "A.I."
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Toronto.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Skywatch",
+        "slug": "skywatch",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "Other"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "Waterloo image",
+              "url": "/images/portfolio/Waterloo.jpeg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Humanly",
+        "slug": "humanly",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "A.I."
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "Seattle image",
+              "url": "/images/portfolio/seattle.jpeg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Leadpages",
+        "slug": "leadpages",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "Other"
+              },
+              {
+                "filterLabel": "industry",
+                "filterValue": "Content"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Minneapolis.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Seam Technologies",
+        "slug": "seam-technologies",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "Healthcare"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "Cincinnati image",
+              "url": "/images/portfolio/Cincinati.webp"
+            }
+          }
+        }
+      },
+      {
+        "title": "Landline",
+        "slug": "landline",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "Other"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_LA.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Kyro",
+        "slug": "kyro",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "Other"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_San_Fran.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Scout",
+        "slug": "scout",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "A.I."
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Atlanta.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Kindo",
+        "slug": "kindo",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "A.I."
+              },
+              {
+                "filterLabel": "industry",
+                "filterValue": "Cybersecurity"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_LA.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "ItsWoop",
+        "slug": "itswoop",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "FinTech"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "Philadelphia image",
+              "url": "/images/portfolio/Philidelphia.webp"
+            }
+          }
+        }
+      },
+      {
+        "title": "Scheduler AI",
+        "slug": "scheduler-ai",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "A.I."
+              },
+              {
+                "filterLabel": "industry",
+                "filterValue": "Future of Work"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "Cincinnati image",
+              "url": "/images/portfolio/Cincinati.webp"
+            }
+          }
+        }
+      },
+      {
+        "title": "Portal",
+        "slug": "portal",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "A.I."
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "NYC Skyline",
+              "url": "/images/portfolio/New_York_City_-2015__CC__BY_Anthony__Quintano.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Hallow",
+        "slug": "hallow",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "Other"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Chicago.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Planned",
+        "slug": "planned-companies",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "Future of Work"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Montreal.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "ENGINEEARS",
+        "slug": "engineears",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "Future of Work"
+              },
+              {
+                "filterLabel": "industry",
+                "filterValue": "Content"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_LA.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Pod",
+        "slug": "pod",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "Future of Work"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Montreal.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Encamp",
+        "slug": "encamp",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "Other"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "Indianapolis image",
+              "url": "/images/portfolio/Indianapolis.jpeg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Cofactor AI",
+        "slug": "cofactor-ai",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "A.I."
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Chicago.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "ClusterTruck",
+        "slug": "clustertruck",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "Other"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "Indianapolis image",
+              "url": "/images/portfolio/Indianapolis.jpeg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Passage",
+        "slug": "passage",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "Future of Work"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Toronto.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Carrot",
+        "slug": "carrot",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "Future of Work"
+              },
+              {
+                "filterLabel": "industry",
+                "filterValue": "Healthcare"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Fayetteville.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Openly",
+        "slug": "openly",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "FinTech"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Boston.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Alexi",
+        "slug": "alexi",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "A.I."
+              },
+              {
+                "filterLabel": "industry",
+                "filterValue": "Future of Work"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Toronto.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Allstar",
+        "slug": "allstar",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "Other"
+              },
+              {
+                "filterLabel": "industry",
+                "filterValue": "Content"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "NYC Skyline",
+              "url": "/images/portfolio/New_York_City_-2015__CC__BY_Anthony__Quintano.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Normal Computing",
+        "slug": "normal-computing",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "A.I."
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "NYC Skyline",
+              "url": "/images/portfolio/New_York_City_-2015__CC__BY_Anthony__Quintano.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Nautical Commerce",
+        "slug": "nautical-commerce",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "Future of Work"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "NYC Skyline",
+              "url": "/images/portfolio/New_York_City_-2015__CC__BY_Anthony__Quintano.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Sample 5",
+        "slug": "sample-1",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "FinTech"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Chicago.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Credal",
+        "slug": "credal",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "A.I."
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "NYC Skyline",
+              "url": "/images/portfolio/New_York_City_-2015__CC__BY_Anthony__Quintano.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Lunasonde",
+        "slug": "lunasonde",
+        "hero": {
+          "filters": {
+            "items": []
+          },
+          "status": [
+            "Active"
+          ],
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "Tucson",
+              "url": "/images/portfolio/tucson-az-skyline-bill-cobb.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Hologram",
+        "slug": "hologram",
+        "hero": {
+          "filters": {
+            "items": []
+          },
+          "status": [
+            "Active"
+          ],
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Chicago.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Nursa",
+        "slug": "nursa",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "Future of Work"
+              },
+              {
+                "filterLabel": "industry",
+                "filterValue": "Healthcare"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_SaltLake.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "AcreTrader",
+        "slug": "acretrader",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "FinTech"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Fayetteville.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Circulo",
+        "slug": "circulo",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "Healthcare"
+              },
+              {
+                "filterLabel": "industry",
+                "filterValue": "A.I."
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Columbus.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Tesouro",
+        "slug": "tesouro",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "FinTech"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "Cincinnati image",
+              "url": "/images/portfolio/Cincinati.webp"
+            }
+          }
+        }
+      },
+      {
+        "title": "Beam Benefits",
+        "slug": "beam-benefits",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "FinTech"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Columbus.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Fast Radius",
+        "slug": "fast-radius",
+        "hero": {
+          "status": [
+            "IPO"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "Robotics"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Chicago.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "StrongArm Technologies",
+        "slug": "strongarm-technologies",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "A.I."
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Brooklyn.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Duality",
+        "slug": "duality",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "A.I."
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_San_Mateo.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "When I Work",
+        "slug": "when-i-work",
+        "hero": {
+          "status": [
+            "Exit"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "Future of Work"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Minneapolis.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Signal Advisors",
+        "slug": "signal-advisors",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "FinTech"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Detroit.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Enlace Health",
+        "slug": "enlace-health",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "Healthcare"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Columbus.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Mantium",
+        "slug": "mantium",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "A.I."
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Columbus.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Thoughtful Automation",
+        "slug": "thoughtful-automation",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "A.I."
+              },
+              {
+                "filterLabel": "industry",
+                "filterValue": "Robotics"
+              },
+              {
+                "filterLabel": "industry",
+                "filterValue": "Future of Work"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Chicago.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "SonderMind",
+        "slug": "sondermind",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "Healthcare"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Denver.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "DisruptOps",
+        "slug": "disruptops",
+        "hero": {
+          "status": [
+            "Exit"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "A.I."
+              },
+              {
+                "filterLabel": "industry",
+                "filterValue": "Cybersecurity"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Kansas_City.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Duolingo",
+        "slug": "duolingo",
+        "hero": {
+          "status": [
+            "IPO"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "EdTech"
+              },
+              {
+                "filterLabel": "industry",
+                "filterValue": "A.I."
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Pittsburgh.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "SoloLearn",
+        "slug": "sololearn",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "EdTech"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_San_Fran.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Finite State",
+        "slug": "finite-state",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "Cybersecurity"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Columbus.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Pieces",
+        "slug": "pieces",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "Future of Work"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "Cincinnati image",
+              "url": "/images/portfolio/Cincinati.webp"
+            }
+          }
+        }
+      },
+      {
+        "title": "Relay Platform",
+        "slug": "relay-platform",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "FinTech"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Toronto.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Olive",
+        "slug": "olive",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "A.I."
+              },
+              {
+                "filterLabel": "industry",
+                "filterValue": "Healthcare"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Columbus.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Battleface",
+        "slug": "battleface",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "FinTech"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Columbus.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Molecula",
+        "slug": "molecula",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "A.I."
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Austin.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Forge Biologics",
+        "slug": "forge-biologics",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "Healthcare"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Columbus.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Sidecar Health",
+        "slug": "sidecar-health",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "Healthcare"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_LA.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Branch",
+        "slug": "branch",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "FinTech"
+              },
+              {
+                "filterLabel": "industry",
+                "filterValue": "Future of Work"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Minneapolis.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Physna",
+        "slug": "physna",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "A.I."
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Columbus.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Ready Robotics",
+        "slug": "ready-robotics",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "Robotics"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Columbus.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Meroxa",
+        "slug": "meroxa",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "A.I."
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Oakland.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "ApplyBoard",
+        "slug": "applyboard",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "EdTech"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Toronto.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Root Inc",
+        "slug": "root-inc",
+        "hero": {
+          "status": [
+            "IPO"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "FinTech"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Columbus.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Ascent",
+        "slug": "ascent",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "A.I."
+              },
+              {
+                "filterLabel": "industry",
+                "filterValue": "Future of Work"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Chicago.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Triggr Health",
+        "slug": "triggr-health",
+        "hero": {
+          "status": [
+            "Exit"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "A.I."
+              },
+              {
+                "filterLabel": "industry",
+                "filterValue": "Healthcare"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Chicago.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Tandem",
+        "slug": "tandem",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "FinTech"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Columbus.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Vecna Robotics",
+        "slug": "vecna-robotics",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "Robotics"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Boston.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Udacity",
+        "slug": "udacity",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "EdTech"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_San_Fran.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Stateless",
+        "slug": "stateless",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "A.I."
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Boulder.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Muve",
+        "slug": "muve",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "Healthcare"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Leadwood.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Clinc",
+        "slug": "clinc",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "A.I."
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Ann_Arbor.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Civis Analytics",
+        "slug": "civis-analytics",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "A.I."
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Chicago.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "CirrusMD",
+        "slug": "cirrusmd",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "Healthcare"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Denver.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "KOHO",
+        "slug": "koho",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "FinTech"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Toronto.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Gecko Robotics",
+        "slug": "gecko-robotics",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "Robotics"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Pittsburgh.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Cyclica",
+        "slug": "cyclica",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "Healthcare"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Toronto.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Path Robotics",
+        "slug": "path-robotics",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "A.I."
+              },
+              {
+                "filterLabel": "industry",
+                "filterValue": "Robotics"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Columbus.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Immuta",
+        "slug": "immuta",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "A.I."
+              },
+              {
+                "filterLabel": "industry",
+                "filterValue": "Cybersecurity"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Columbus.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Greenlight",
+        "slug": "greenlight",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "FinTech"
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Atlanta.jpg"
+            }
+          }
+        }
+      },
+      {
+        "title": "Algolux",
+        "slug": "algolux",
+        "hero": {
+          "status": [
+            "Active"
+          ],
+          "filters": {
+            "items": [
+              {
+                "filterLabel": "industry",
+                "filterValue": "A.I."
+              }
+            ]
+          },
+          "mediaAnnotation": {
+            "cityMedia": {
+              "__typename": "Asset",
+              "description": "",
+              "url": "/images/portfolio/Drive_Cities_Montreal.jpg"
+            }
+          }
+        }
+      }
+    ],
+    "key": "Portfolio",
+    "theme": "dark"
+  }
