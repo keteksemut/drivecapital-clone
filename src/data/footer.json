@@ -10,64 +10,64 @@
     "leftLinksColumnCollection": {
         "items": [
             {
-                "text": "PORTFOLIO",
-                "url": "/portfolio"
+                "text": "LINK 1",
+                "url": "#"
             },
             {
-                "text": "STORY",
-                "url": "/our-story"
+                "text": "LINK 2",
+                "url": "#"
             },
             {
-                "text": "TEAM",
-                "url": "/team"
+                "text": "LINK 3",
+                "url": "#"
             },
             {
-                "text": "CAREERS",
-                "url": "/careers"
+                "text": "LINK 4",
+                "url": "#"
             },
             {
-                "text": "Talent",
-                "url": "/talent"
+                "text": "LINK 5",
+                "url": "#"
             }
         ]
     },
     "rightLinksColumnCollection": {
         "items": [
             {
-                "text": "MEDIA KIT",
-                "url": "/media-kit"
-            },
-            {
-                "text": "DIVERSITY REPORTS",
-                "url": "/diversity"
-            },
-            {
-                "text": "CONTACT",
-                "url": "amusakbar@gmail.com"
-            },
-            {
-                "text": "INVESTOR LOGIN",
+                "text": "LINK 6",
                 "url": "#"
             },
             {
-                "text": "Seed Program",
-                "url": "/seed-program"
+                "text": "LINK 7",
+                "url": "#"
+            },
+            {
+                "text": "LINK 8",
+                "url": "#"
+            },
+            {
+                "text": "LINK 9",
+                "url": "#"
+            },
+            {
+                "text": "LINK 10",
+                "url": "#"
             }
         ]
     },
     "socialLinksCollection": {
         "items": [
             {
-                "url": "https://www.linkedin.com/company/drivecapital/",
-                "text": "linkedin"
+                "url": "#",
+                "text": "Social Link 1"
             },
             {
-                "url": "https://twitter.com/drivecapital",
-                "text": "twitter"
+                "url": "#",
+                "text": "Social Link 2"
             },
             {
-                "url": "https://www.youtube.com/c/DriveCapital",
-                "text": "youtube"
+                "url": "#",
+                "text": "Social Link 3"
             }
         ]
     }

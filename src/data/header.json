@@ -3,41 +3,41 @@
     "navigationLinks": {
         "items": [
             {
-                "text": "portfolio",
-                "url": "/portfolio"
+                "text": "Link 1",
+                "url": "#"
             },
             {
-                "text": "story",
-                "url": "/our-story"
+                "text": "Link 2",
+                "url": "#"
             },
             {
-                "text": "team",
-                "url": "/team"
+                "text": "Link 3",
+                "url": "#"
             },
             {
-                "text": "careers",
-                "url": "/careers"
+                "text": "Link 4",
+                "url": "#"
             },
             {
-                "text": "Talent",
-                "url": "/talent"
+                "text": "Link 5",
+                "url": "#"
             },
             {
-                "text": "Seed Program",
-                "url": "/seed-program"
+                "text": "Link 6",
+                "url": "#"
             }
         ]
     },
     "socialMedia": {
         "items": [
             {
-                "url": "https://www.linkedin.com/company/drivecapital/"
+                "url": "#"
             },
             {
-                "url": "https://twitter.com/drivecapital"
+                "url": "#"
             },
             {
-                "url": "https://www.youtube.com/c/DriveCapital"
+                "url": "#"
             }
         ]
     }
