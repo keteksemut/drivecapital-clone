@@ -102,11 +102,11 @@ export default function Home({ homeData, theme, companiesByCity, visibe = true }
                 bottomText={homeData.marqueeBottomText}
                 className={st['double-marquee']}
             >
-                <DoubleMarqueeMedia
+                <DoubleMarquee.Media
                     media={homeData.marqueeMedia.items[0]}
                     className={st['top-marquee-media']}
                 />
-                <DoubleMarqueeMedia
+                <DoubleMarquee.Media
                     media={homeData.marqueeMedia.items[1]}
                     className={st['bottom-marquee-media']}
                 />
