@@ -61,19 +61,9 @@ export const Footer = ({ className }) => {
                         className={st.form}
                         onSubmit={(e) => {
                             e.preventDefault();
-                            handleSubmit(({ BOT, EMAIL }) => {
-                                if (BOT) {
-                                    alert("Please don't do it");
-                                } else {
-                                    n({ EMAIL: EMAIL });
-                                    setTimeout(() => {
-                                        reset();
-                                    }, 2000);
-                                }
-                            })(e);
                         }}
                     >
-                        <p className="p-s">SUBSCRIBE TO OUR NEWSLETTER</p>
+                        <p className="p-s">SIMULATED FORM SUBMISSION, NOT A REAL ONE. DO NOT ENTER ANYTHING EVEN IF IT DOESN’T WORK</p>
                         <input
                             {...register("BOT", { required: false })}
                             type="checkbox"
