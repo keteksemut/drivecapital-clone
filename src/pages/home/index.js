@@ -28,7 +28,7 @@ export default function Home({ homeData, theme, companiesByCity, visibe = true }
             scroll={c}
         >
  
-            {/* <section className={`${st.hero} layout-block-inner ${c && st.appear}`}>
+            <section className={`${st.hero} layout-block-inner ${c && st.appear}`}>
                 {homeData.heroHeadline.length > 0 && (
                     <h2 className={st.headline}>
                         {homeData.heroHeadline.map((e, t) => (
@@ -67,15 +67,15 @@ export default function Home({ homeData, theme, companiesByCity, visibe = true }
                         })}
                     </div>
                 )}
-            </section> */}
+            </section>
 
             <section className={st['story-block']}>
-                {/* <SectionHeader
+                <SectionHeader
                     className={st.heading}
                     headline={homeData.porfolioHeadline}
                     cta={homeData.portfolioCta}
                     description={homeData.portfolioDescription}
-                /> */}
+                />
                 <CitiesList
                     cities={companiesByCity}
                     media={[homeData.portfolioMediaTop, homeData.portfolioMediaBottom]}
@@ -83,7 +83,7 @@ export default function Home({ homeData, theme, companiesByCity, visibe = true }
                 />
             </section>
 
-            {/* <section className={st['team-block']}>
+            <section className={st['team-block']}>
                 <div className={st['team-image']}>
                     <DoubleImage images={homeData.teamMedia.items} />
                 </div>
@@ -163,7 +163,7 @@ export default function Home({ homeData, theme, companiesByCity, visibe = true }
                         </div>
                     )}
                 </section>
-            )} */}
+            )}
 
         </Layout>
     );
