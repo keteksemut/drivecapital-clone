@@ -2,68 +2,61 @@
     "homeData": {
         "heroHeadline": [
             "THIS IS A CLONED SITE",
-            "FOR PERSONAL EDUCATION ONLY"
+            "FROM DRIVECAPITAL.COM FOR PERSONAL EDUCATION ONLY"
         ],
         "heroMarquee": [
-            "ATL",
-            "Capital that comes to you",
-            "AUS",
-            "True partners",
-            "BNA",
-            "Idea to IPO",
-            "CLT",
-            "Capital that comes to you",
-            "CMH",
-            "True partners",
-            "DEN",
-            "Idea to IPO",
-            "IND",
-            "Capital that comes to you",
-            "MSP",
-            "True partners",
-            "ORD",
-            "PGH",
-            "Idea to IPO",
-            "SDF",
-            "Capital that comes to you",
-            "YYZ",
-            "True Partners"
+            "CLONED NOTICE",
+            "This project is cloned from drivecapital.com",
+            "EDUCATIONAL PURPOSE",
+            "It is intended only for study and practice",
+            "NO PROFIT",
+            "There is no commercial benefit or gain",
+            "DISCLAIMER",
+            "The content remains property of drivecapital.com",
+            "PRACTICE ONLY",
+            "Created as a web development exercise",
+            "NO AFFILIATION",
+            "Not endorsed by Drive Capital",
+            "FOR LEARNING",
+            "Respecting ownership and original creators",
+            "STUDENT USE",
+            "Demonstration of front-end cloning techniques"
         ],
-        "porfolioHeadline": "Our Story",
-        "portfolioDescription": "Today, technology cuts horizontally through every business and industry. There are more billion-dollar opportunities east of the Rockies and west of the Hudson River than everywhere else in North America combined — we’re documenting the stories of building in-between and beyond.",
-        "teamHeadline": "Our Team",
-        "teamDescription": "We’re a diverse and collaborative team from unlikely backgrounds. We love a challenge, and we invest on behalf of our Limited Partners who believe that, with the right partners and a relentless work ethic,  entrepreneurs can build market-defining companies anywhere.",
-        "teamAnnotation": "CANDID conviction",
-        "teamFirstSubtext": "We’re relentless because we have to be. Entrepreneurs choose to partner with Drive because they want convicted investors who will push them to be great.",
-        "teamSecondSubtext": "Great founders don’t want cheerleaders or cheap platitudes. They want honesty about what works and what doesn’t. They want the best tools available for doing their life’s work.",
+        "porfolioHeadline": "DISCLAIMER & STORY",
+        "portfolioDescription": "This section is not original content but part of a cloned site. It has been carefully recreated from drivecapital.com strictly for educational purposes. The intent is to study layout, structure, and data binding while making no profit or claiming ownership. All rights remain with the original creators of drivecapital.com. The length of this text is preserved to mirror the real portfolio description while clearly stating that this clone is for practice only and not for commercial exploitation.",
+        "teamHeadline": "OUR LEARNING TEAM",
+        "teamDescription": "This replica is maintained as a personal educational resource. It does not represent Drive Capital’s real team or operations. The idea is to practice with realistic data structures and long-form content while respecting the fact that the original belongs to drivecapital.com. This cloned content will never be monetized, advertised, or reused outside personal education. The text is intentionally extended to keep parity with the original dataset while emphasizing disclaimers throughout.",
+        "teamAnnotation": "EDUCATIONAL CLONE",
+        "teamFirstSubtext": "This replica demonstrates how real-world websites organize team data, but it is not real. The project exists only for learning purposes. Entrepreneurs, investors, or partners should not treat this as genuine Drive Capital information. Instead, it is part of an exercise in front-end engineering, styled content handling, and JSON data mapping.",
+        "teamSecondSubtext": "This cloned content reiterates that it is not authentic business information. It does not replace or imitate Drive Capital’s services beyond technical design. It should be read only as practice material. By repeating disclaimers in long form, the dataset ensures clarity: this is strictly for education, not profit or exploitation of someone else’s work.",
         "marqueeTopText": [
-            "87 companies",
-            "$2B AUM",
-            "87 companies",
-            "$2B AUM"
+            "CLONED SITE",
+            "FOR EDUCATION",
+            "NO COMMERCIAL USE",
+            "PRACTICE PURPOSES"
         ],
         "marqueeBottomText": [
-            "24 cities",
-            "16 partners",
-            "24 cities",
-            "16 partners"
+            "DISCLAIMER INCLUDED",
+            "NO PROFIT",
+            "CLONED FROM DRIVECAPITAL.COM",
+            "LEARNING ONLY"
         ],
-        "storyAnnotation": "BUILDING GREATNESS ",
-        "storyHeadline": "OUR PORTFOLIO",
-        "storyDescription": "Our companies are proving that you can build a world-class technology company anywhere. We believe the best advantages are the ones you already have. Build where your talent is. Build where your customers are. Build where you’re strongest.",
+        "storyAnnotation": "CLONED FOR EDUCATION",
+        "storyHeadline": "PORTFOLIO DISCLAIMER",
+        "storyDescription": "The companies and portfolio sections shown here are part of an educational clone. They are not owned, represented, or managed by this project. The true data belongs to Drive Capital, and this recreation is meant to simulate a real-world site for study. The description remains lengthy so it matches the structure of the real one, but it repeats that this is not for business, not for advertising, and not to generate any benefit. Only education and practice are intended.",
         "portfolioCta": {
             "__typename": "Link",
-            "text": "View Our Story",
+            "text": "Learn More About This Educational Clone",
             "url": "/our-story"
         },
         "teamCta": {
             "__typename": "Link",
-            "text": "View Our Team",
+            "text": "See The Learning Team Disclaimer",
             "url": "/team"
         },
         "storyCta": {
             "__typename": "Link",
-            "text": "View Our Portfolio",
+            "text": "Educational Portfolio (Clone)",
             "url": "/portfolio"
         },
         "cityListCta": {
@@ -146,9 +139,15 @@
             ]
         },
         "metadata": {
-            "title": "Home",
-            "description": "Drive Capital is a venture capital firm in Columbus that invests in world-class founders building the next generation of market-defining companies.",
-            "keywords": null,
+            "title": "Cloned for Educational Purposes Only",
+            "description": "This is a cloned representation of drivecapital.com, reproduced only for study and practice. It is not an official site, does not claim to represent Drive Capital, and must not be mistaken for business use. No profit, no gain, no redistribution. This extended description is designed to keep length similar to the real metadata while emphasizing the disclaimer.",
+            "keywords": [
+                "drivecapital clone",
+                "educational project",
+                "practice only",
+                "not for profit",
+                "disclaimer"
+            ],
             "bg": {
                 "__typename": "Asset",
                 "description": "",
