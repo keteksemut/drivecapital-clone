@@ -154,7 +154,7 @@ export const Footer = ({ className }) => {
                     </div>
                 )}
                 <p className={`${st.address} p-s`}>
-                    629 N. HIGH STREET COLUMBUS, OH 43215
+                    1234 DUMMY STREET, ANYTOWN, USA 00000
                 </p>
                 <p className={`${st.date} p-s`}>
                     © {new Date().getFullYear()}

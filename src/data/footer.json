@@ -58,15 +58,15 @@
     "socialLinksCollection": {
         "items": [
             {
-                "url": "#",
+                "url": "https://www.linkedin.com",
                 "text": "Social Link 1"
             },
             {
-                "url": "#",
+                "url": "https://twitter.com",
                 "text": "Social Link 2"
             },
             {
-                "url": "#",
+                "url": "https://www.youtube.com",
                 "text": "Social Link 3"
             }
         ]

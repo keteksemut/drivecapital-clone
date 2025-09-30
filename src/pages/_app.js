@@ -43,61 +43,115 @@ App.getInitialProps = async (e) => {
   // Define header data
   const headerData = {
     internalTitleReference: "Drive Capital Header",
-    navigationLinks: {
-      items: [
-        { text: "Portfolio", url: "/portfolio" },
-        { text: "Story", url: "/our-story" },
-        { text: "Team", url: "/team" },
-        { text: "Careers", url: "/careers" },
-        { text: "Talent", url: "/talent" },
-        { text: "Seed Program", url: "/seed-program" },
-      ],
+    "navigationLinks": {
+        "items": [
+            {
+                "text": "Link 1",
+                "url": "#"
+            },
+            {
+                "text": "Link 2",
+                "url": "#"
+            },
+            {
+                "text": "Link 3",
+                "url": "#"
+            },
+            {
+                "text": "Link 4",
+                "url": "#"
+            },
+            {
+                "text": "Link 5",
+                "url": "#"
+            },
+            {
+                "text": "Link 6",
+                "url": "#"
+            }
+        ]
     },
-    socialMedia: {
-      items: [
-        { url: "https://www.linkedin.com/company/drivecapital/" },
-        { url: "https://twitter.com/drivecapital" },
-        { url: "https://www.youtube.com/c/DriveCapital" },
-      ],
+    "socialMedia": {
+        "items": [
+            {
+                "url": "#"
+            },
+            {
+                "url": "#"
+            },
+            {
+                "url": "#"
+            }
+        ]
     },
   };
 
   // Define footer data
   const footerData = {
     internalTitleReference: "Drive Capital Footer",
-    headline: "THE GREATEST EMERGING MARKET FOR VC IS AMERICA",
+    headline: "CLONED BY ADITYA AKBAR FROM THE OFFICIAL DRIVECAPITAL.COM WEBSITE",
     lottieAsset: {
       url: "/animationData.json",
       description: "",
       width: 1656,
       height: 865,
     },
-    leftLinksColumnCollection: {
-      items: [
-        { text: "Portfolio", url: "/portfolio" },
-        { text: "Story", url: "/our-story" },
-        { text: "Team", url: "/team" },
-        { text: "Careers", url: "/careers" },
-        { text: "Talent", url: "/talent" },
-      ],
+    "leftLinksColumnCollection": {
+        "items": [
+            {
+                "text": "LINK 1",
+                "url": "#"
+            },
+            {
+                "text": "LINK 2",
+                "url": "#"
+            },
+            {
+                "text": "LINK 3",
+                "url": "#"
+            },
+            {
+                "text": "LINK 4",
+                "url": "#"
+            },
+            {
+                "text": "LINK 5",
+                "url": "#"
+            }
+        ]
     },
-    rightLinksColumnCollection: {
-      items: [
-        { text: "Media Kit", url: "/media-kit" },
-        { text: "Diversity Reports", url: "/diversity" },
-        { text: "Contact", url: "mailto:info@drivecapital.com" },
-        { text: "Investor Login", url: "https://drive-capital.lpx.fund/" },
-        { text: "Seed Program", url: "/seed-program" },
-      ],
+    "rightLinksColumnCollection": {
+        "items": [
+            {
+                "text": "LINK 6",
+                "url": "#"
+            },
+            {
+                "text": "LINK 7",
+                "url": "#"
+            },
+            {
+                "text": "LINK 8",
+                "url": "#"
+            },
+            {
+                "text": "LINK 9",
+                "url": "#"
+            },
+            {
+                "text": "LINK 10",
+                "url": "#"
+            }
+        ]
     },
     socialLinksCollection: {
       items: [
         {
-          url: "https://www.linkedin.com/company/drivecapital/",
+          url: "https://www.linkedin.com",
           text: "LinkedIn",
         },
-        { url: "https://twitter.com/drivecapital", text: "Twitter" },
-        { url: "https://www.youtube.com/c/DriveCapital", text: "YouTube" },
+        { url: "https://twitter.com", text: "Twitter" },
+        { url: "https://www.youtube.com", text: "YouTube" },
       ],
     },
   };
