@@ -4,6 +4,7 @@ import { useStore } from "@/lib/store/useStore";
 import { Link } from "../link";
 import { Lottie } from "../lottie";
 import { useJsonp } from "@/hook/useJsonp";
+import { recolorLottie } from "@/lib/recolorLottie";
 import dynamic from "next/dynamic";
 import lottieData from "../../../public/animationData.json";
 import st from "./footer.module.css";
@@ -45,7 +46,10 @@ export const Footer = ({ className }) => {
                     <div className={st["lottie-map"]}>
                         <Lottie
                             className={st.lottie}
-                            animation={lottieData}
+                            animation={recolorLottie(
+                                JSON.parse(JSON.stringify(lottieData)), // clone so original isn’t mutated
+                                "#000" // 🔴 choose your color here
+                            )}
                             speed={0.7}
                             loop={false}
                             viewThreshold={0.5}
