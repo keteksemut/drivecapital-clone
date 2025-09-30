@@ -64,7 +64,7 @@ export function CitiesList({ cities, media, cta }) {
             className={`${st.wrapper} layout-block`}
             ref={_}
         >
-            {/* {media[0]?.url && (
+            {media[0]?.url && (
                 <div
                     className={`${st.image} ${st.top}`}
                     ref={e => { h.current[0] = e; }}
@@ -76,9 +76,9 @@ export function CitiesList({ cities, media, cta }) {
                         sizes="(max-width: 800px) 0vw, 32vw"
                     />
                 </div>
-            )} */}
+            )}
 
-            {/* {media[1]?.url && (
+            {media[1]?.url && (
                 <div
                     className={`${st.image} ${st.bottom}`}
                     ref={e => { h.current[1] = e; }}
@@ -90,7 +90,7 @@ export function CitiesList({ cities, media, cta }) {
                         sizes="(max-width: 800px) 0vw, 32vw"
                     />
                 </div>
-            )} */}
+            )}
 
             <ul className={`${st["cities-lists"]} h2`}>
                 {cities.map((cityData, index) => {
@@ -104,7 +104,7 @@ export function CitiesList({ cities, media, cta }) {
                             <div className={st.jobs}>
                                 <Marquee
                                     repeat={5}
-                                    duration={1 * linkedFrom.companies.items.length}
+                                    duration={4 * linkedFrom.companies.items.length}
                                 >
                                     {linkedFrom.companies.items.map((company, idx) => {
                                         const { linkedTitle } = company;

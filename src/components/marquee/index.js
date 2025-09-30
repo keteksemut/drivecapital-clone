@@ -3,7 +3,7 @@ import { useRef } from "react";
 import cn from "clsx";
 import st from "./marquee.module.css";
 
-export const Marquee = ({ children, repeat = 2, duration = 5, offset = 0, inverted = !1, className, animationStart = !0, ..._ }) => {
+export const Marquee = ({ children, repeat = 2, duration = 50, offset = 0, inverted = !1, className, animationStart = !0, ..._ }) => {
     const h = useRef()
         , p = useIntersection(h, {
             threshold: 0

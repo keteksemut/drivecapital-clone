@@ -1,227 +1,562 @@
 {
-  "homeData": {
-    "heroHeadline": [
-      "THIS IS A CLONED SITE",
-      "FOR PERSONAL EDUCATION ONLY"
-    ],
-    "heroMarquee": [
-      "PLACEHOLDER",
-      "This is a cloned site for personal education only",
-      "PLACEHOLDER",
-      "All displayed text is dummy content",
-      "PLACEHOLDER",
-      "Do not use commercially",
-      "PLACEHOLDER",
-      "For testing and layout purposes",
-      "PLACEHOLDER",
-      "Non-original content",
-      "PLACEHOLDER",
-      "Educational placeholder",
-      "PLACEHOLDER",
-      "Practice demonstration",
-      "PLACEHOLDER",
-      "Sample filler only"
-    ],
-    "porfolioHeadline": "About This Clone",
-    "portfolioDescription": "This section contains placeholder content. Original site text has been replaced for personal practice and education.",
-    "teamHeadline": "Sample Team Section",
-    "teamDescription": "All wording here is dummy placeholder. It demonstrates structure only.",
-    "teamAnnotation": "PLACEHOLDER NOTE",
-    "teamFirstSubtext": "Cloned site placeholder text. Replace with your own educational notes.",
-    "teamSecondSubtext": "More filler content. No original wording is used here.",
-    "marqueeTopText": [
-      "XX sample companies",
-      "XX placeholder value",
-      "XX sample companies",
-      "XX placeholder value"
-    ],
-    "marqueeBottomText": [
-      "XX sample cities",
-      "XX sample partners",
-      "XX sample cities",
-      "XX sample partners"
-    ],
-    "storyAnnotation": "PLACEHOLDER STORY",
-    "storyHeadline": "Portfolio Placeholder",
-    "storyDescription": "This is a dummy portfolio description. It exists only to show layout on a cloned site template.",
-    "portfolioCta": {
-      "__typename": "Link",
-      "text": "View Placeholder Story",
-      "url": "/placeholder-story"
-    },
-    "teamCta": {
-      "__typename": "Link",
-      "text": "View Placeholder Team",
-      "url": "/placeholder-team"
-    },
-    "storyCta": {
-      "__typename": "Link",
-      "text": "View Placeholder Portfolio",
-      "url": "/placeholder-portfolio"
-    },
-    "cityListCta": {
-      "__typename": "Link",
-      "text": "& More Placeholder",
-      "url": "/placeholder"
-    },
-    "heroBackgroundVideo": {
-      "url": "/header_vid_-_1080_v3.m4v"
-    },
-    "portfolioMediaTop": {
-      "__typename": "Asset",
-      "description": "Placeholder top image",
-      "url": "/images/Drive_Home_02a.jpg"
-    },
-    "portfolioMediaBottom": {
-      "__typename": "Asset",
-      "description": "Placeholder bottom image",
-      "url": "/images/Drive_Home_02b.jpg"
-    },
-    "heroMedia": {
-      "items": [
-        {
-          "__typename": "Asset",
-          "description": "Placeholder hero image 1",
-          "url": "/images/Drive_Home_01a.jpg"
+    "homeData": {
+        "heroHeadline": [
+            "THIS IS A CLONED SITE",
+            "FOR PERSONAL EDUCATION ONLY"
+        ],
+        "heroMarquee": [
+            "ATL",
+            "Capital that comes to you",
+            "AUS",
+            "True partners",
+            "BNA",
+            "Idea to IPO",
+            "CLT",
+            "Capital that comes to you",
+            "CMH",
+            "True partners",
+            "DEN",
+            "Idea to IPO",
+            "IND",
+            "Capital that comes to you",
+            "MSP",
+            "True partners",
+            "ORD",
+            "PGH",
+            "Idea to IPO",
+            "SDF",
+            "Capital that comes to you",
+            "YYZ",
+            "True Partners"
+        ],
+        "porfolioHeadline": "Our Story",
+        "portfolioDescription": "Today, technology cuts horizontally through every business and industry. There are more billion-dollar opportunities east of the Rockies and west of the Hudson River than everywhere else in North America combined — we’re documenting the stories of building in-between and beyond.",
+        "teamHeadline": "Our Team",
+        "teamDescription": "We’re a diverse and collaborative team from unlikely backgrounds. We love a challenge, and we invest on behalf of our Limited Partners who believe that, with the right partners and a relentless work ethic,  entrepreneurs can build market-defining companies anywhere.",
+        "teamAnnotation": "CANDID conviction",
+        "teamFirstSubtext": "We’re relentless because we have to be. Entrepreneurs choose to partner with Drive because they want convicted investors who will push them to be great.",
+        "teamSecondSubtext": "Great founders don’t want cheerleaders or cheap platitudes. They want honesty about what works and what doesn’t. They want the best tools available for doing their life’s work.",
+        "marqueeTopText": [
+            "87 companies",
+            "$2B AUM",
+            "87 companies",
+            "$2B AUM"
+        ],
+        "marqueeBottomText": [
+            "24 cities",
+            "16 partners",
+            "24 cities",
+            "16 partners"
+        ],
+        "storyAnnotation": "BUILDING GREATNESS ",
+        "storyHeadline": "OUR PORTFOLIO",
+        "storyDescription": "Our companies are proving that you can build a world-class technology company anywhere. We believe the best advantages are the ones you already have. Build where your talent is. Build where your customers are. Build where you’re strongest.",
+        "portfolioCta": {
+            "__typename": "Link",
+            "text": "View Our Story",
+            "url": "/our-story"
         },
-        {
-          "__typename": "Asset",
-          "description": "Placeholder hero image 2",
-          "url": "/images/Drive_Home_01b.jpg"
+        "teamCta": {
+            "__typename": "Link",
+            "text": "View Our Team",
+            "url": "/team"
         },
-        {
-          "__typename": "Asset",
-          "description": "Placeholder hero image 3",
-          "url": "/images/Drive_Home_01c.jpg"
-        }
-      ]
-    },
-    "teamMedia": {
-      "items": [
-        {
-          "__typename": "Asset",
-          "description": "Placeholder team image 1",
-          "url": "/images/Drive_Home_03a.jpg"
+        "storyCta": {
+            "__typename": "Link",
+            "text": "View Our Portfolio",
+            "url": "/portfolio"
         },
-        {
-          "__typename": "Asset",
-          "description": "Placeholder team image 2",
-          "url": "/images/Drive_Home_03b.jpg"
-        }
-      ]
-    },
-    "marqueeMedia": {
-      "items": [
-        {
-          "__typename": "Asset",
-          "description": "Placeholder marquee image 1",
-          "url": "/images/Drive_Home_04b.jpg"
+        "cityListCta": {
+            "__typename": "Link",
+            "text": "& More",
+            "url": "/portfolio"
         },
-        {
-          "__typename": "Asset",
-          "description": "Placeholder marquee image 2",
-          "url": "/images/Drive_Home_04a.jpg"
-        }
-      ]
-    },
-    "storyMedia": {
-      "items": [
-        {
-          "__typename": "Asset",
-          "description": "Placeholder story image 1",
-          "url": "/images/Drive_Home_05a.jpg"
+        "heroBackgroundVideo": {
+            "url": "/header_vid_-_1080_v3.m4v"
         },
-        {
-          "__typename": "Asset",
-          "description": "Placeholder story image 2",
-          "url": "/images/Drive_Home_05b.jpg"
-        }
-      ]
-    },
-    "metadata": {
-      "title": "Home - Placeholder",
-      "description": "This is a cloned site using only placeholder content for personal education and practice.",
-      "keywords": null,
-      "bg": {
-        "__typename": "Asset",
-        "description": "Placeholder background image",
-        "url": "/images/DRIVE-OG-Images-Home.jpg"
-      },
-      "image": {
-        "url": "/images/og.jpg"
-      }
-    },
-    "cities": {
-      "items": [
-        {
-          "city": "Placeholder City 1",
-          "airportCode": "PC1",
-          "linkedFrom": {
-            "companies": {
-              "items": [
+        "portfolioMediaTop": {
+            "__typename": "Asset",
+            "description": "",
+            "url": "/images/Drive_Home_02a.jpg"
+        },
+        "portfolioMediaBottom": {
+            "__typename": "Asset",
+            "description": "",
+            "url": "/images/Drive_Home_02b.jpg"
+        },
+        "heroMedia": {
+            "items": [
                 {
-                  "linkedTitle": "Sample Company A"
+                    "__typename": "Asset",
+                    "description": "",
+                    "url": "/images/Drive_Home_01a.jpg"
                 },
                 {
-                  "linkedTitle": "Sample Company B"
-                }
-              ]
-            }
-          }
-        },
-        {
-          "city": "Placeholder City 2",
-          "airportCode": "PC2",
-          "linkedFrom": {
-            "companies": {
-              "items": [
-                {
-                  "linkedTitle": "Sample Company C"
+                    "__typename": "Asset",
+                    "description": "",
+                    "url": "/images/Drive_Home_01b.jpg"
                 },
                 {
-                  "linkedTitle": "Sample Company D"
+                    "__typename": "Asset",
+                    "description": "",
+                    "url": "/images/Drive_Home_01c.jpg"
                 }
-              ]
-            }
-          }
-        }
-      ]
-    }
-  },
-  "companiesByCity": [
-    {
-      "city": "Placeholder City 1",
-      "airportCode": "PC1",
-      "linkedFrom": {
-        "companies": {
-          "items": [
-            {
-              "linkedTitle": "Sample Company A"
+            ]
+        },
+        "teamMedia": {
+            "items": [
+                {
+                    "__typename": "Asset",
+                    "description": "",
+                    "url": "/images/Drive_Home_03a.jpg"
+                },
+                {
+                    "__typename": "Asset",
+                    "description": "",
+                    "url": "/images/Drive_Home_03b.jpg"
+                }
+            ]
+        },
+        "marqueeMedia": {
+            "items": [
+                {
+                    "__typename": "Asset",
+                    "description": "",
+                    "url": "/images/Drive_Home_04b.jpg"
+                },
+                {
+                    "__typename": "Asset",
+                    "description": "",
+                    "url": "/images/Drive_Home_04a.jpg"
+                }
+            ]
+        },
+        "storyMedia": {
+            "items": [
+                {
+                    "__typename": "Asset",
+                    "description": "",
+                    "url": "/images/Drive_Home_05a.jpg"
+                },
+                {
+                    "__typename": "Asset",
+                    "description": "",
+                    "url": "/images/Drive_Home_05b.jpg"
+                }
+            ]
+        },
+        "metadata": {
+            "title": "Home",
+            "description": "Drive Capital is a venture capital firm in Columbus that invests in world-class founders building the next generation of market-defining companies.",
+            "keywords": null,
+            "bg": {
+                "__typename": "Asset",
+                "description": "",
+                "url": "/images/DRIVE-OG-Images-Home.jpg"
             },
-            {
-              "linkedTitle": "Sample Company B"
+            "image": {
+                "url": "/images/og.jpg"
             }
-          ]
+        },
+        "cities": {
+            "items": [
+                {
+                    "city": "Atlanta",
+                    "airportCode": "ATL",
+                    "linkedFrom": {
+                        "companies": {
+                            "items": [
+                                {
+                                    "linkedTitle": "Greenlight"
+                                },
+                                {
+                                    "linkedTitle": "Scout"
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "city": "Austin",
+                    "airportCode": "AUS",
+                    "linkedFrom": {
+                        "companies": {
+                            "items": [
+                                {
+                                    "linkedTitle": "Molecula"
+                                },
+                                {
+                                    "linkedTitle": "Telnyx"
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "city": "Denver",
+                    "airportCode": " DEN",
+                    "linkedFrom": {
+                        "companies": {
+                            "items": [
+                                {
+                                    "linkedTitle": "CirrusMD"
+                                },
+                                {
+                                    "linkedTitle": "SonderMind"
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "city": "Chicago",
+                    "airportCode": "ORD",
+                    "linkedFrom": {
+                        "companies": {
+                            "items": [
+                                {
+                                    "linkedTitle": "Hologram"
+                                },
+                                {
+                                    "linkedTitle": "Channel IQ"
+                                },
+                                {
+                                    "linkedTitle": "Ascent"
+                                },
+                                {
+                                    "linkedTitle": "Civis Analytics"
+                                },
+                                {
+                                    "linkedTitle": "Thoughtful Automation"
+                                },
+                                {
+                                    "linkedTitle": "Triggr Health"
+                                },
+                                {
+                                    "linkedTitle": "Fast Radius"
+                                },
+                                {
+                                    "linkedTitle": "Hallow"
+                                },
+                                {
+                                    "linkedTitle": "Sample 6"
+                                },
+                                {
+                                    "linkedTitle": "Cofactor AI"
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "city": "Columbus",
+                    "airportCode": "CMH",
+                    "linkedFrom": {
+                        "companies": {
+                            "items": [
+                                {
+                                    "linkedTitle": "Circulo"
+                                },
+                                {
+                                    "linkedTitle": "Ready Robotics"
+                                },
+                                {
+                                    "linkedTitle": "Path Robotics"
+                                },
+                                {
+                                    "linkedTitle": "Beam Benefits"
+                                },
+                                {
+                                    "linkedTitle": "Mantium"
+                                },
+                                {
+                                    "linkedTitle": "Forge Biologics"
+                                },
+                                {
+                                    "linkedTitle": "Olive"
+                                },
+                                {
+                                    "linkedTitle": "Enlace Health"
+                                },
+                                {
+                                    "linkedTitle": "Immuta"
+                                },
+                                {
+                                    "linkedTitle": "Tandem"
+                                },
+                                {
+                                    "linkedTitle": "Root Inc"
+                                },
+                                {
+                                    "linkedTitle": "Battleface"
+                                },
+                                {
+                                    "linkedTitle": "Finite State"
+                                },
+                                {
+                                    "linkedTitle": "Tokr Labs"
+                                },
+                                {
+                                    "linkedTitle": "Vironexis"
+                                },
+                                {
+                                    "linkedTitle": "Physna"
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "city": "Pittsburgh",
+                    "airportCode": "PGH",
+                    "linkedFrom": {
+                        "companies": {
+                            "items": [
+                                {
+                                    "linkedTitle": "Gecko Robotics"
+                                },
+                                {
+                                    "linkedTitle": "Duolingo"
+                                },
+                                {
+                                    "linkedTitle": "Fifth Season"
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "city": "Toronto",
+                    "airportCode": "YYZ",
+                    "linkedFrom": {
+                        "companies": {
+                            "items": [
+                                {
+                                    "linkedTitle": "Passage"
+                                },
+                                {
+                                    "linkedTitle": "ApplyBoard"
+                                },
+                                {
+                                    "linkedTitle": "Cyclica"
+                                },
+                                {
+                                    "linkedTitle": "KOHO"
+                                },
+                                {
+                                    "linkedTitle": "Relay Platform"
+                                },
+                                {
+                                    "linkedTitle": "Birdseye"
+                                },
+                                {
+                                    "linkedTitle": "Alexi"
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
         }
-      }
     },
-    {
-      "city": "Placeholder City 2",
-      "airportCode": "PC2",
-      "linkedFrom": {
-        "companies": {
-          "items": [
-            {
-              "linkedTitle": "Sample Company C"
-            },
-            {
-              "linkedTitle": "Sample Company D"
+    "companiesByCity": [
+        {
+            "city": "Atlanta",
+            "airportCode": "ATL",
+            "linkedFrom": {
+                "companies": {
+                    "items": [
+                        {
+                            "linkedTitle": "Greenlight"
+                        },
+                        {
+                            "linkedTitle": "Scout"
+                        }
+                    ]
+                }
             }
-          ]
+        },
+        {
+            "city": "Austin",
+            "airportCode": "AUS",
+            "linkedFrom": {
+                "companies": {
+                    "items": [
+                        {
+                            "linkedTitle": "Molecula"
+                        },
+                        {
+                            "linkedTitle": "Telnyx"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "city": "Denver",
+            "airportCode": " DEN",
+            "linkedFrom": {
+                "companies": {
+                    "items": [
+                        {
+                            "linkedTitle": "CirrusMD"
+                        },
+                        {
+                            "linkedTitle": "SonderMind"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "city": "Chicago",
+            "airportCode": "ORD",
+            "linkedFrom": {
+                "companies": {
+                    "items": [
+                        {
+                            "linkedTitle": "Hologram"
+                        },
+                        {
+                            "linkedTitle": "Channel IQ"
+                        },
+                        {
+                            "linkedTitle": "Ascent"
+                        },
+                        {
+                            "linkedTitle": "Civis Analytics"
+                        },
+                        {
+                            "linkedTitle": "Thoughtful Automation"
+                        },
+                        {
+                            "linkedTitle": "Triggr Health"
+                        },
+                        {
+                            "linkedTitle": "Fast Radius"
+                        },
+                        {
+                            "linkedTitle": "Hallow"
+                        },
+                        {
+                            "linkedTitle": "Sample 6"
+                        },
+                        {
+                            "linkedTitle": "Cofactor AI"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "city": "Columbus",
+            "airportCode": "CMH",
+            "linkedFrom": {
+                "companies": {
+                    "items": [
+                        {
+                            "linkedTitle": "Circulo"
+                        },
+                        {
+                            "linkedTitle": "Ready Robotics"
+                        },
+                        {
+                            "linkedTitle": "Path Robotics"
+                        },
+                        {
+                            "linkedTitle": "Beam Benefits"
+                        },
+                        {
+                            "linkedTitle": "Mantium"
+                        },
+                        {
+                            "linkedTitle": "Forge Biologics"
+                        },
+                        {
+                            "linkedTitle": "Olive"
+                        },
+                        {
+                            "linkedTitle": "Enlace Health"
+                        },
+                        {
+                            "linkedTitle": "Immuta"
+                        },
+                        {
+                            "linkedTitle": "Tandem"
+                        },
+                        {
+                            "linkedTitle": "Root Inc"
+                        },
+                        {
+                            "linkedTitle": "Battleface"
+                        },
+                        {
+                            "linkedTitle": "Finite State"
+                        },
+                        {
+                            "linkedTitle": "Tokr Labs"
+                        },
+                        {
+                            "linkedTitle": "Vironexis"
+                        },
+                        {
+                            "linkedTitle": "Physna"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "city": "Pittsburgh",
+            "airportCode": "PGH",
+            "linkedFrom": {
+                "companies": {
+                    "items": [
+                        {
+                            "linkedTitle": "Gecko Robotics"
+                        },
+                        {
+                            "linkedTitle": "Duolingo"
+                        },
+                        {
+                            "linkedTitle": "Fifth Season"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "city": "Toronto",
+            "airportCode": "YYZ",
+            "linkedFrom": {
+                "companies": {
+                    "items": [
+                        {
+                            "linkedTitle": "Passage"
+                        },
+                        {
+                            "linkedTitle": "ApplyBoard"
+                        },
+                        {
+                            "linkedTitle": "Cyclica"
+                        },
+                        {
+                            "linkedTitle": "KOHO"
+                        },
+                        {
+                            "linkedTitle": "Relay Platform"
+                        },
+                        {
+                            "linkedTitle": "Birdseye"
+                        },
+                        {
+                            "linkedTitle": "Alexi"
+                        }
+                    ]
+                }
+            }
         }
-      }
-    }
-  ],
-  "key": "home",
-  "theme": "dark"
+    ],
+    "key": "home",
+    "theme": "dark"
 }

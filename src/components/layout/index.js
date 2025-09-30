@@ -97,19 +97,19 @@ export default function Layout({
         <>
             <SeoHead {...metadata} />
             <div className={cn(`theme-${theme}`, st.layout, className)}>
-                {/* <Scrollbar />
+                <Scrollbar />
                 <Header
                     ref={G}
                     isoLogo={isoLogo}
                     className={`theme-${theme}`}
                     appear={headerAppear}
-                /> */}
+                />
                 <main className={st.main}>
                     {children}
                 </main>
-                {/* <Footer className={"theme-".concat(theme)} /> */}
+                <Footer className={"theme-".concat(theme)} />
             </div>
-            {/* {noise && <Noise />} */}
+            {noise && <Noise />}
         </>
     );
 }

@@ -42,7 +42,7 @@ export default function Home({ homeData, theme, companiesByCity, visibe = true }
                     <LetterVideo title="Drive" video={homeData.heroBackgroundVideo.url} />
                 </div>
                 {homeData.heroMarquee.length > 0 && (
-                    <Marquee duration={6 * homeData.heroMarquee.length} className={st.marquee}>
+                    <Marquee duration={20 * homeData.heroMarquee.length} className={st.marquee}>
                         {homeData.heroMarquee.map((e, t) => (
                             <p key={t} className="p-s">
                                 {e}
